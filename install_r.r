@@ -135,7 +135,15 @@ install.packages(c("memisc",
 "BGGM",
 "getPass",
 "fields",
-"JuliaConnectoR"
+"JuliaConnectoR",
+"gtsummary",
+"esc",
+"ExpertChoice",
+"support.CEs",
+"DoE.base",
+"skpr",
+"gptstudio",
+"catIrt"
 ), error = TRUE, dependencies = TRUE)
 
 # install R packages from GitHub
@@ -153,4 +161,5 @@ remotes::install_github(c("crsh/papaja",
 "cjvanlissa/worcs",
 "ltl-manabi/olp",
 "ropenscilabs/gramr",
-"benmarwick/wordcountaddin"), dependencies = TRUE)
+"benmarwick/wordcountaddin",
+"janajarecki/cognitivemodels"), dependencies = TRUE)
