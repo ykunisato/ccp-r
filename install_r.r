@@ -143,23 +143,20 @@ install.packages(c("memisc",
 "DoE.base",
 "skpr",
 "gptstudio",
-"catIrt"
+"catIrt",
+"renv",
+"papaja",
+"ggdmc",
+"GGMnonreg"
 ), error = TRUE, dependencies = TRUE)
 
 # install R packages from GitHub
-remotes::install_github(c("crsh/papaja",
-"MathiasHarrer/dmetar",
-"rstudio/renv",
-"karthik/holepunch",
+remotes::install_github(c("MathiasHarrer/dmetar",
 "yihui/xaringan",
 "ykunisato/jpaRmd",
 "ykunisato/psyinfr",
-"benmarwick/rrtools",
-"yxlin/ggdmc",
-"donaldRwilliams/GGMnonreg",
 "miraisolutions/compareWith",
 "cjvanlissa/worcs",
-"ltl-manabi/olp",
 "ropenscilabs/gramr",
 "benmarwick/wordcountaddin",
 "janajarecki/cognitivemodels"), dependencies = TRUE)
