@@ -2,13 +2,10 @@ name: Build & push docker image
 
 on:
   push:
-    branches:
+    branches-ignore:
       - '**'
     tags:
-      - 'v*.*.*'
-  pull_request:
-    branches:
-      - 'master'
+      - '**'
 
 jobs:
   docker:
