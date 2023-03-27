@@ -2,10 +2,8 @@ name: Build & push docker image
 
 on:
   push:
-    branches-ignore:
-      - '**'
     tags:
-      - '**'
+      - 'v*'
 
 jobs:
   docker:
