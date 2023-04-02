@@ -14,9 +14,6 @@ cat("\nCXX14FLAGS=-O3 -march=native -mtune=native",
 # install CMDSTAN_HOME
 remotes::install_github("stan-dev/posterior")
 install.packages("cmdstanr", repos = c("https://mc-stan.org/r-packages/", getOption("repos")))
-library(cmdstanr)
-install_cmdstan()
-
 install.packages(c("devtools",
 "remotes",
 "BiocManager"
