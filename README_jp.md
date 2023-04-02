@@ -19,7 +19,7 @@ Docker Desktopがインストールされていて，ある程度の通信速度
 **Mac**
 
 ```
-docker run -e PASSWORD=パスワード -p 8787:8787 -v $(pwd):/home/rstudio -d --name paperr ykunisato/paper-r
+docker run -e PASSWORD=パスワード -p 8787:8787 -v $(pwd):/home/rstudio -d --name cppr ghcr.io/ykunisato/ccp-r:latest
 ```
 
 
@@ -27,7 +27,7 @@ docker run -e PASSWORD=パスワード -p 8787:8787 -v $(pwd):/home/rstudio -d -
 
 
 ```
-docker run -e PASSWORD=パスワード -p 8787:8787 -v "%cd%":/home/rstudio -d --name paperr ykunisato/paper-r
+docker run -e PASSWORD=パスワード -p 8787:8787 -v "%cd%":/home/rstudio -d --name cppr ghcr.io/ykunisato/ccp-r:latest
 ```
 
 
