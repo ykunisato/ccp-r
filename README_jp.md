@@ -12,7 +12,7 @@ Docker Desktopがインストールされていて，ある程度の通信速度
 
 1.Docker Desktop ( https://www.docker.com/products/docker-desktop )をインストールする。
 
-2.ターミナル（Macの場合。Winはコマンドプロンプト？)を開く
+2.ターミナル（Macの場合。Winはコマンドプロンプト)を開く
 
 3.ターミナルに以下を打ち込んで、コンテナーをrunする(runの前にPullが自動的なされます)。パスワードとコンテナ名はご自身の好きなように設定ください。
 
@@ -35,4 +35,18 @@ docker run -e PASSWORD=パスワード -p 8787:8787 -v "%cd%":/home/rstudio -d -
 
 5.ブラウザ上にRstudioが出てくるので，IDにrstudio，パスに上記で設定したパスワードをいれる。
 
-## [インストールされているRパッケージのリスト](https://github.com/ykunisato/paper-r/blob/master/list_packages.md)
+6.もしcmdstanを使う場合やJuliaパッケージを使う場合は，以下を実行します。
+
+- cmdstanを使う場合は，RStudioのConsoleで以下を実行する。
+
+```
+cmdstanr::install_cmdstan(cores = 2)
+```
+
+- Juliaのパッケージをインストールする場合は，RStudioのTerminalでjuliaと打ってから，以下のようにインストールする。
+
+```
+using Pkg;Pkg.add(["DataFrames","CSV","Distributions","Statistics","JuliaFormatter","CPUTime","Gadfly","GLM","Optim","Plots","RDatasets","StatsBase","StatsFuns","StatsPlots","AdvancedHMC","Turing","Roots","ForneyLab","Suppressor", "LogExpFunctions", "Colors", "StatsModelComparisons","RxInfer","BenchmarkTools"]);Pkg.precompile()
+```
+
+## [インストールされているRパッケージのリスト](https://github.com/ykunisato/ccp-r/list_packages.md)

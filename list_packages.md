@@ -1,323 +1,1967 @@
-### Templates for writing paper
+## List of installed packages
 
-- rticles              :                Article Formats for R Markdown
-- papaja               :                Prepare reproducible APA journal articles with R Markdown
-
-### Publication-ready figure & table
-
-- papaja               :                Prepare reproducible APA journal articles with R Markdown
-- stargazer            :                Well-Formatted Regression and Summary Statistics Tables
-- pixiedust            :                Tables so Beautifully Fine-Tuned You Will Believe It's Magic
-- ggsci                :                Scientific Journal and Sci-Fi Themed Color Palettes for 'ggplot2'
-
-### Reporting analyzed results
-
-- sigr                 :                Succinct and Correct Statistical Summaries for Reports
-- psycho               :                Efficient and Publishing-Oriented Workflow for Psychological Science
-
-### Statistical analysis packages used in psychology
-
-- BayesFactor       :                   Computation of Bayes Factors for Common Designs
-- blavaan        :                      Bayesian Latent Variable Analysis
-- brms                :                 Bayesian Regression Models using 'Stan'
-- lme4                 :                Linear Mixed-Effects Models using 'Eigen' and S4
-- psych                :                Procedures for Psychological, Psychometric, and Personality Research
-- rstan                :                R Interface to Stan
-- tidyverse            :                Easily Install and Load the 'Tidyverse'
-- posterior            :                useful tools for fitting Bayesian models or working with output from Bayesian models
-- cmdstanr             :                Lightweight interface to Stan for R users
-
-If you will use cmdstan first time, you should type "install_cmdstan()" in Consol.
-
-### Add-in of RStudio
-
-- citr                  :               'RStudio' Add-in to Insert Markdown Citations (BibTeX)
-- gramr                :                The Grammar of Grammar
-- wordcountaddin       :                Word counts and readability statistics in R markdown documents
-
-### Other packages
-
-- abind :                                Combine Multidimensional Arrays
-- acepack :                              ACE and AVAS for Selecting Multiple Regression Transformations
-- arrayhelpers :                         Convenience Functions for Arrays
-- askpass       :                       Safe Password Entry for R, Git, and SSH
-- assertthat     :                      Easy Pre and Post Assertions
-- backports       :                     Reimplementations of Functions Introduced Since R-3.0.0
-- base64enc        :                    Tools for base64 encoding
-- bayesplot          :                  Plotting for Bayesian Models
-- BDgraph             :                 Bayesian Structure Learning in Graphical Models using Birth-Death MCMC
-- BH                   :                Boost C++ Header Files
-- bibtex                :               Bibtex Parser
-- BiocManager            :              Access the Bioconductor Project Package Repository
-- bit                     :             A Class for Vectors of 1-Bit Booleans
-- bit64                    :            A S3 Class for Vectors of 64bit Integers :
-- bitops        :                       Bitwise Operations
-- blob            :                     A Simple S3 Class for Representing Vectors of Binary Data ('BLOBS')
-- bookdown         :                    Authoring Books and Technical Documents with R Markdown
-- brew              :                   Templating Framework for Report Generation
-- bridgesampling     :                  Bridge Sampling for Marginal Likelihoods and Bayes Factors
-- Brobdingnag          :                Very Large Numbers in R
-- broom                 :               Convert Statistical Analysis Objects into Tidy Tibbles
-- callr                  :              Call R from R
-- car                    :              Companion to Applied Regression
-- carData                :              Companion to Applied Regression Data Sets
-- caret                 :               Classification and Regression Training
-- caTools               :               Tools: moving window statistics, GIF, Base64, ROC AUC, etc.
-- cellranger            :               Translate Spreadsheet Cell Ranges to Rows and Columns
-- checkmate             :               Fast and Versatile Argument Checks
-- cli                   :               Helpers for Developing Command Line Interfaces
-- clipr                 :               Read and Write from the System Clipboard
-- clisymbols            :               Unicode Symbols at the R Prompt
-- coda                  :               Output Analysis and Diagnostics for MCMC
-- colorspace            :               A Toolbox for Manipulating and Assessing Colors and Palettes
-- colourpicker          :               A Colour Picker Tool for Shiny and for Selecting Colours in Plots
-- commonmark            :               High Performance CommonMark and Github Markdown Rendering in R
-- CompQuadForm          :               Distribution Function of Quadratic Forms in Normal Variables
-- contfrac              :               Continued Fractions
-- corpcor               :               Efficient Estimation of Covariance and (Partial) Correlation
-- covr                  :               Test Coverage for Packages
-- crayon                :               Colored Terminal Output
-- crosstalk             :               Inter-Widget Interactivity for HTML Widgets
-- curl                  :               A Modern and Flexible Web Client for R
-- d3Network             :               Tools for creating D3 JavaScript network, tree, dendrogram, and Sankey graphs from R
-- data.table            :              Extension of 'data.frame'
-- DBI                   :               R Database Interface
-- dbplyr                :               A 'dplyr' Back End for Databases
-- desc                  :               Manipulate DESCRIPTION Files
-- DescTools             :               Tools for Descriptive Statistics
-- deSolve               :               Solvers for Initial Value Problems of Differential Equations ('ODE','DAE', 'DDE')
-- devtools              :               Tools to Make Developing R Packages Easier
-- digest                :               Create Compact Hash Digests of R Objects
-- docopt                :               Command-Line Interface Specification Language
-- dplyr                 :               A Grammar of Data Manipulation
-- DT                    :               A Wrapper of the JavaScript Library 'DataTables'
-- dtplyr                :               Data Table Back-End for 'dplyr'
-- dygraphs              :               Interface to 'Dygraphs' Interactive Time Series Charting Library
-- e1071                 :               Misc Functions of the Department of Statistics, Probability Theory Group(Formerly: E1071), TU Wien
-- ellipsis              :               Tools for Working with ...
-- elliptic              :               Weierstrass and Jacobi Elliptic Functions
-- emmeans               :               Estimated Marginal Means, aka Least-Squares Means
-- estimability          :               Tools for Assessing Estimability of Linear Predictions
-- evaluate              :               Parsing and Evaluation Tools that Provide More Details than the Default
-- expm                  :               Matrix Exponential, Log, 'etc'
-- fansi                 :               ANSI Control Sequence Aware String Functions
-- fdrtool               :               Estimation of (Local) False Discovery Rates and Higher Criticism
-- feather               :               R Bindings to the Feather 'API'
-- foghorn               :               Summarize CRAN Check Results in the Terminal
-- forcats               :               Tools for Working with Categorical Variables (Factors)
-- foreach               :               Provides Foreach Looping Construct for R
-- formatR               :               Format R Code Automatically
-- Formula               :               Extended Model Formulas
-- fs                    :               Cross-Platform File System Operations Based on 'libuv'
-- future                :               Unified Parallel and Distributed Processing in R for Everyone
-- generics              :               Common S3 Generics not Provided by Base R Methods Related to Model Fitting
-- GGally               :                Extension to 'ggplot2'
-- ggcorrplot           :                Visualization of a Correlation Matrix using 'ggplot2'
-- ggm                  :                Functions for graphical Markov models
-- ggmcmc               :                Tools for Analyzing MCMC Simulations from Bayesian Inference
-- ggplot2              :                Create Elegant Data Visualisations Using the Grammar of Graphics
-- ggridges             :                Ridgeline Plots in 'ggplot2'
-- ggstance             :                Horizontal 'ggplot2' Components
-- gh                   :                'GitHub' 'API'
-- git2r                :                Provides Access to Git Repositories
-- glasso               :                Graphical Lasso: Estimation of Gaussian Graphical Models
-- glmnet               :                Lasso and Elastic-Net Regularized Generalized Linear Models
-- globals              :                Identify Global Objects in R Expressions
-- glue                 :                Interpreted String Literals
-- gmailr               :                Access the Gmail RESTful API
-- gower                :                Gower's Distance
-- gridExtra            :                Miscellaneous Functions for "Grid" Graphics
-- gtable               :                Arrange 'Grobs' in Tables
-- gtools               :                Various R Programming Tools
-- haven                :                Import and Export 'SPSS', 'Stata' and 'SAS' Files
-- HDInterval           :                Highest (Posterior) Density Intervals
-- highlight            :                Syntax Highlighter
-- highr                :                Syntax Highlighting for R Source Code
-- Hmisc                :                Harrell Miscellaneous
-- hms                  :                Pretty Time of Day
-- htmlTable            :                Advanced Tables for Markdown/HTML
-- htmltools            :                Tools for HTML
-- htmlwidgets          :                HTML Widgets for R
-- httpuv               :                HTTP and WebSocket Server Library
-- httr                 :                Tools for Working with URLs and HTTP
-- huge                 :                High-Dimensional Undirected Graph Estimation
-- hunspell             :                High-Performance Stemmer, Tokenizer, and Spell Checker
-- hypergeo             :                The Gauss Hypergeometric Function
-- igraph               :                Network Analysis and Visualization
-- ini                  :                Read and Write '.ini' Files
-- inline               :                Functions to Inline C, C++, Fortran Function Calls from R
-- ipred                :                Improved Predictors
-- iterators            :                Provides Iterator Construct for R
-- jpeg                 :                Read and write JPEG images
-- jsonlite             :                A Robust, High Performance JSON Parser and Generator for R
-- knitr                :                A General-Purpose Package for Dynamic Report Generation in R
-- koRpus               :                An R Package for Text Analysis
-- koRpus.lang.en       :                Language Support for 'koRpus' Package: English
-- labeling             :                Axis Labeling
-- labelVector          :                Label Attributes for Atomic Vectors
-- Lahman               :                Sean 'Lahman' Baseball Database
-- LaplacesDemon        :                Complete Environment for Bayesian Inference
-- later                :                Utilities for Delaying Function Execution
-- latticeExtra         :                Extra Graphical Utilities Based on Lattice
-- lava                 :                Latent Variable Models
-- lavaan               :                Latent Variable Analysis
-- lazyeval             :                Lazy (Non-Standard) Evaluation
-- lintr                :                A 'Linter' for R Code
-- listenv              :                Environments Behaving (Almost) as Lists
-- littler              :                R at the Command-Line via 'r'
-- lmerTest             :                Tests in Linear Mixed Effects Models
-- loo                  :                Efficient Leave-One-Out Cross-Validation and WAIC for Bayesian Models
-- ltm                  :                Latent Trait Models under IRT
-- lubridate            :                Make Dealing with Dates a Little Easier
-- magrittr             :                A Forward-Pipe Operator for R
-- manipulate           :                Interactive Plots for RStudio
-- maptools             :                Tools for Handling Spatial Objects
-- markdown             :                'Markdown' Rendering for R
-- MatrixModels         :                Modelling with Sparse And Dense Matrices
-- matrixStats          :                Functions that Apply to Rows and Columns of Matrices (and to Vectors)
-- mcmc                 :                Markov Chain Monte Carlo
-- MCMCpack             :                Markov Chain Monte Carlo (MCMC) Package
-- memoise              :                Memoisation of Functions
-- microbenchmark       :                Accurate Timing Functions
-- mime                 :                Map Filenames to MIME Types
-- miniUI               :                Shiny UI Widgets for Small Screens
-- minqa                :                Derivative-free optimization algorithms by quadratic approximation
-- mnormt               :                The Multivariate Normal and t Distributions
-- mockery              :                Mocking Library for R
-- ModelMetrics         :                Rapid Calculation of Model Metrics
-- modelr               :                Modelling Functions that Work with the Pipe
-- msm                  :                Multi-State Markov and Hidden Markov Models in Continuous Time
-- MuMIn                :                Multi-Model Inference
-- munsell              :                Utilities for Using Munsell Colours
-- mvtnorm              :                Multivariate Normal and t Distributions
-- nFactors             :                Parallel Analysis and Non Graphical Solutions to the Cattell Scree Test
-- nleqslv              :                Solve Systems of Nonlinear Equations
-- nloptr               :                R Interface to NLopt
-- nonnest2             :                Tests of Non-Nested Models
-- numDeriv             :                Accurate Numerical Derivatives
-- nycflights13         :                Flights that Departed NYC in 2013
-- openssl              :                Toolkit for Encryption, Signatures and Certificates Based on OpenSSL
-- openxlsx             :                Read, Write and Edit XLSX Files
-- parSim :  Parallel Simulation Studies
-- packrat              :                A Dependency Management System for Projects and their R Package Dependencies
-- parsedate            :                Recognize and Parse Dates in Various Formats, Including All ISO 8601 Formats
-- pbapply              :                Adding Progress Bar to 'apply' Functions
-- pbivnorm             :                Vectorized Bivariate Normal CDF
-- pbkrtest                             Parametric Bootstrap and Kenward Roger Based Methods for Mixed Model Comparison
-- pillar               :                Coloured Formatting for Columns
-- pingr                :                Check if a Remote Computer is Up
-- pkgbuild             :                Find Tools Needed to Build R Packages
-- pkgconfig            :                Private Configuration for 'R' Packages
-- pkgdown              :                Make Static HTML Documentation for a Package
-- pkgload              :                Simulate Package Installation and Attach
-- pkgmaker             :                Development Utilities for R Packages
-- PKI                  :                Public Key Infrastucture for R Based on the X.509 Standard
-- plogr                :                The 'plog' C++ Logging Library
-- plyr                 :                Tools for Splitting, Applying and Combining Data
-- png                  :                Read and write PNG images
-- polycor              :                Polychoric and Polyserial Correlations
-- ppcor                :                Partial and Semi-Partial (Part) Correlation
-- praise               :                Praise Users
-- prettyunits          :                Pretty, Human Readable Formatting of Quantities
-- pROC                 :                Display and Analyze ROC Curves
-- processx             :                Execute and Control System Processes
-- prodlim              :                Product-Limit Estimation for Censored Event History Analysis
-- progress             :                Terminal Progress Bars
-- projpred             :                Projection Predictive Feature Selection
-- promises             :                Abstractions for Promise-Based Asynchronous Programming
-- ps                   :                List, Query, Manipulate System Processes
-- purrr                :                Functional Programming Tools
-- qgraph               :                Graph Plotting Methods, Psychometric Data Visualization and Graphical Model Estimation
-- quantreg             :                Quantile Regression
-- R6                   :                Encapsulated Classes with Reference Semantics
-- rappdirs             :                Application Directories: Determine Where to Save Data, Caches, and Logs
-- rcmdcheck            :                Run 'R CMD check' from 'R' and Capture Results
-- RColorBrewer         :                ColorBrewer Palettes
-- Rcpp                 :                Seamless R and C++ Integration
-- RcppArmadillo        :                'Rcpp' Integration for the 'Armadillo' Templated Linear Algebra Library
-- RcppEigen            :                'Rcpp' Integration for the 'Eigen' Templated Linear Algebra Library
-- RcppRoll             :                Efficient Rolling / Windowed Operations
-- RCurl                :                General Network (HTTP/FTP/...) Client Interface for R
-- readr                :                Read Rectangular Text Data
-- readxl               :                Read Excel Files
-- recipes              :                Preprocessing Tools to Create Design Matrices
-- RefManageR           :                Straightforward 'BibTeX' and 'BibLaTeX' Bibliography Management
-- registry             :                Infrastructure for R Package Registries
-- rematch              :                Match Regular Expressions with a Nicer 'API'
-- rematch2             :                Tidy Output from Regular Expression Matching
-- remotes              :                R Package Installation from Remote Repositories, Including 'GitHub'
-- reprex               :                Prepare Reproducible Example Code via the Clipboard
-- reshape              :                Flexibly Reshape Data
-- reshape2             :                Flexibly Reshape Data: A Reboot of the Reshape Package
-- rex                  :                Friendly Regular Expressions
-- rhub                 :                Connect to 'R-hub'
-- rio                  :                A Swiss-Army Knife for Data I/O
-- rJava                :                Low-Level R to Java Interface
-- rjson                :                JSON for R
-- rlang                :                Functions for Base Types and Core R and 'Tidyverse' Features
-- rmarkdown            :                Dynamic Documents for R
-- rmdshower            :                'R' 'Markdown' Format for 'shower' Presentations
-- RMySQL               :                Database Interface and 'MySQL' Driver for R
-- rngtools             :                Utility Functions for Working with Random Number Generators
-- roxygen2             :                In-Line Documentation for R
-- RPostgreSQL          :                R Interface to the 'PostgreSQL' Database System
-- rprojroot            :                Finding Files in Project Subdirectories
-- rsconnect            :                Deployment Interface for R Markdown Documents and Shiny Applications
-- RSQLite              :                'SQLite' Interface for R
-- rstanarm             :                Bayesian Applied Regression Modeling via Stan
-- rstantools           :                Tools for Developing R Packages Interfacing with 'Stan'
-- rstudioapi           :                Safely Access the RStudio API
-- rversions            :                Query 'R' Versions, Including 'r-release' and 'r-oldrel'
-- rvest                :                Easily Harvest (Scrape) Web Pages
-- sandwich             :                Robust Covariance Matrix Estimators
-- scales               :                Scale Functions for Visualization
-- selectr              :                Translate CSS Selectors to XPath Expressions
-- servr                :                A Simple HTTP Server to Serve Static Files or Dynamic Documents
-- sessioninfo          :                R Session Information
-- shiny                :                Web Application Framework for R
-- shinyjs              :                Easily Improve the User Experience of Your Shiny Apps in Seconds
-- shinystan            :                Interactive Visual and Numerical Diagnostics and Posterior Analysis for Bayesian Models
-- shinythemes          :                Themes for Shiny
-- sourcetools          :                Tools for Reading, Tokenizing and Parsing R Code
-- sp                   :                Classes and Methods for Spatial Data
-- SparseM              :                Sparse Linear Algebra
-- spelling             :                Tools for Spell Checking in R
-- SQUAREM              :                Squared Extrapolation Methods for Accelerating EM-Like Monotone Algorithms
-- StanHeaders          :                C++ Header Files for Stan
-- stringdist           :                Approximate String Matching and String Distance Functions
-- stringi              :                Character String Processing Facilities
-- stringr              :                Simple, Consistent Wrappers for Common String Operations
-- svUnit               :                SciViews GUI API - Unit testing
-- sylly                :                Hyphenation and Syllable Counting for Text Analysis
-- sylly.en             :                Language Support for 'sylly' Package: English
-- sys                  :                Powerful and Reliable Tools for Running System Commands in R
-- testit               :                A Simple Package for Testing R Packages
-- testthat             :                Unit Testing for R
-- threejs              :                Interactive 3D Scatter Plots, Networks and Globes
-- tibble               :                Simple Data Frames
-- tidybayes            :                Tidy Data and 'Geoms' for Bayesian Models
-- tidyr                :                Easily Tidy Data with 'spread()' and 'gather()' Functions
-- tidyselect           :                Select from a Set of Strings
-- timeDate             :                Rmetrics - Chronological and Calendar Objects
-- tinytex              :                Helper Functions to Install and Maintain 'TeX Live', and Compile 'LaTeX'Documents
-- tufte                                Tufte's Styles for R Markdown Documents
-- usethis              :                Automate Package and Project Setup
-- utf8                 :                Unicode Text Processing
-- uuid                 :                Tools for generating and handling of UUIDs
-- V8                   :                Embedded JavaScript Engine for R
-- viridis              :                Default Color Maps from 'matplotlib'
-- viridisLite          :                Default Color Maps from 'matplotlib' (Lite Version)
-- webshot              :                Take Screenshots of Web Pages
-- whisker              :                {{mustache}} for R, logicless templating
-- whoami              :                 Username, Full Name, Email Address, 'GitHub' Username of the Current User
-- withr                :                Run Code 'With' Temporarily Modified Global State
-- wrapr                :                Wrap R Tools for Debugging and Parametric Programming
-- xfun                 :                Miscellaneous Functions by 'Yihui Xie'
-- XML                  :                Tools for Parsing and Generating XML Within R and S-Plus
-- xml2                 :                Parse XML
-- xopen                :                Open System Files, 'URLs', Anything
-- xtable               :                Export Tables to LaTeX or HTML
-- xts                  :                eXtensible Time Series
-- yaml                 :                Methods to Convert R Data to YAML and Back
-- zip                  :                Cross-Platform 'zip' Compression
-- zoo                  :                S3 Infrastructure for Regular and Irregular Time Series (Z's Ordered Observations)
+    ## +---------+-----------------------+------------+
+    ## |         | Package               | Version    |
+    ## +=========+=======================+============+
+    ## | 1       | abind                 | 1.4-5      |
+    ## +---------+-----------------------+------------+
+    ## | 2       | acepack               | 1.4.1      |
+    ## +---------+-----------------------+------------+
+    ## | 3       | admisc                | 0.31       |
+    ## +---------+-----------------------+------------+
+    ## | 4       | AER                   | 1.2-10     |
+    ## +---------+-----------------------+------------+
+    ## | 5       | afex                  | 1.2-1      |
+    ## +---------+-----------------------+------------+
+    ## | 6       | AICcmodavg            | 2.3-2      |
+    ## +---------+-----------------------+------------+
+    ## | 7       | AlgDesign             | 1.2.1      |
+    ## +---------+-----------------------+------------+
+    ## | 8       | alr4                  | 1.0.6      |
+    ## +---------+-----------------------+------------+
+    ## | 9       | anytime               | 0.3.9      |
+    ## +---------+-----------------------+------------+
+    ## | 10      | aod                   | 1.3.2      |
+    ## +---------+-----------------------+------------+
+    ## | 11      | apaTables             | 2.0.8      |
+    ## +---------+-----------------------+------------+
+    ## | 12      | ape                   | 5.7-1      |
+    ## +---------+-----------------------+------------+
+    ## | 13      | arm                   | 1.13-1     |
+    ## +---------+-----------------------+------------+
+    ## | 14      | arrangements          | 1.1.9      |
+    ## +---------+-----------------------+------------+
+    ## | 15      | arrayhelpers          | 1.1-0      |
+    ## +---------+-----------------------+------------+
+    ## | 16      | arrow                 | 11.0.0.3   |
+    ## +---------+-----------------------+------------+
+    ## | 17      | AsioHeaders           | 1.22.1-2   |
+    ## +---------+-----------------------+------------+
+    ## | 18      | askpass               | 1.1        |
+    ## +---------+-----------------------+------------+
+    ## | 19      | assertive             | 0.3-6      |
+    ## +---------+-----------------------+------------+
+    ## | 20      | assertive.base        | 0.0-9      |
+    ## +---------+-----------------------+------------+
+    ## | 21      | assertive.code        | 0.0-3      |
+    ## +---------+-----------------------+------------+
+    ## | 22      | assertive.data        | 0.0-3      |
+    ## +---------+-----------------------+------------+
+    ## | 23      | assertive.data.uk     | 0.0-2      |
+    ## +---------+-----------------------+------------+
+    ## | 24      | assertive.data.us     | 0.0-2      |
+    ## +---------+-----------------------+------------+
+    ## | 25      | assertive.datetimes   | 0.0-3      |
+    ## +---------+-----------------------+------------+
+    ## | 26      | assertive.files       | 0.0-2      |
+    ## +---------+-----------------------+------------+
+    ## | 27      | assertive.matrices    | 0.0-2      |
+    ## +---------+-----------------------+------------+
+    ## | 28      | assertive.models      | 0.0-2      |
+    ## +---------+-----------------------+------------+
+    ## | 29      | assertive.numbers     | 0.0-2      |
+    ## +---------+-----------------------+------------+
+    ## | 30      | assertive.properties  | 0.0-5      |
+    ## +---------+-----------------------+------------+
+    ## | 31      | assertive.reflection  | 0.0-5      |
+    ## +---------+-----------------------+------------+
+    ## | 32      | assertive.sets        | 0.0-3      |
+    ## +---------+-----------------------+------------+
+    ## | 33      | assertive.strings     | 0.0-3      |
+    ## +---------+-----------------------+------------+
+    ## | 34      | assertive.types       | 0.0-3      |
+    ## +---------+-----------------------+------------+
+    ## | 35      | assertthat            | 0.2.1      |
+    ## +---------+-----------------------+------------+
+    ## | 36      | assortnet             | 0.20       |
+    ## +---------+-----------------------+------------+
+    ## | 37      | aTSA                  | 3.1.2      |
+    ## +---------+-----------------------+------------+
+    ## | 38      | av                    | 0.8.3      |
+    ## +---------+-----------------------+------------+
+    ## | 39      | backports             | 1.4.1      |
+    ## +---------+-----------------------+------------+
+    ## | 40      | bain                  | 0.2.8      |
+    ## +---------+-----------------------+------------+
+    ## | 41      | base64enc             | 0.1-3      |
+    ## +---------+-----------------------+------------+
+    ## | 42      | BayesFactor           | 0.9.12-4.4 |
+    ## +---------+-----------------------+------------+
+    ## | 43      | BayesFM               | 0.1.5      |
+    ## +---------+-----------------------+------------+
+    ## | 44      | bayesplot             | 1.10.0     |
+    ## +---------+-----------------------+------------+
+    ## | 45      | bayesQR               | 2.3        |
+    ## +---------+-----------------------+------------+
+    ## | 46      | bayestestR            | 0.13.0     |
+    ## +---------+-----------------------+------------+
+    ## | 47      | bbmle                 | 1.0.25     |
+    ## +---------+-----------------------+------------+
+    ## | 48      | BDgraph               | 2.72       |
+    ## +---------+-----------------------+------------+
+    ## | 49      | bdsmatrix             | 1.3-6      |
+    ## +---------+-----------------------+------------+
+    ## | 50      | beeswarm              | 0.4.0      |
+    ## +---------+-----------------------+------------+
+    ## | 51      | benchmarkme           | 1.0.8      |
+    ## +---------+-----------------------+------------+
+    ## | 52      | benchmarkmeData       | 1.0.4      |
+    ## +---------+-----------------------+------------+
+    ## | 53      | bestglm               | 0.37.3     |
+    ## +---------+-----------------------+------------+
+    ## | 54      | betareg               | 3.1-4      |
+    ## +---------+-----------------------+------------+
+    ## | 55      | BFpack                | 1.0.0      |
+    ## +---------+-----------------------+------------+
+    ## | 56      | BGGM                  | 2.0.4      |
+    ## +---------+-----------------------+------------+
+    ## | 57      | BH                    | 1.81.0-1   |
+    ## +---------+-----------------------+------------+
+    ## | 58      | BiasedUrn             | 2.0.9      |
+    ## +---------+-----------------------+------------+
+    ## | 59      | bife                  | 0.7.2      |
+    ## +---------+-----------------------+------------+
+    ## | 60      | bigassertr            | 0.1.6      |
+    ## +---------+-----------------------+------------+
+    ## | 61      | bigD                  | 0.2.0      |
+    ## +---------+-----------------------+------------+
+    ## | 62      | biglm                 | 0.9-2.1    |
+    ## +---------+-----------------------+------------+
+    ## | 63      | bigmemory             | 4.6.1      |
+    ## +---------+-----------------------+------------+
+    ## | 64      | bigmemory.sri         | 0.1.6      |
+    ## +---------+-----------------------+------------+
+    ## | 65      | bigparallelr          | 0.3.2      |
+    ## +---------+-----------------------+------------+
+    ## | 66      | bigutilsr             | 0.3.4      |
+    ## +---------+-----------------------+------------+
+    ## | 67      | bindr                 | 0.1.1      |
+    ## +---------+-----------------------+------------+
+    ## | 68      | bindrcpp              | 0.2.2      |
+    ## +---------+-----------------------+------------+
+    ## | 69      | binom                 | 1.1-1.1    |
+    ## +---------+-----------------------+------------+
+    ## | 70      | BiocGenerics          | 0.44.0     |
+    ## +---------+-----------------------+------------+
+    ## | 71      | BiocManager           | 1.30.20    |
+    ## +---------+-----------------------+------------+
+    ## | 72      | BiocVersion           | 3.16.0     |
+    ## +---------+-----------------------+------------+
+    ## | 73      | bit                   | 4.0.5      |
+    ## +---------+-----------------------+------------+
+    ## | 74      | bit64                 | 4.0.5      |
+    ## +---------+-----------------------+------------+
+    ## | 75      | bitops                | 1.0-7      |
+    ## +---------+-----------------------+------------+
+    ## | 76      | blavaan               | 0.4-7      |
+    ## +---------+-----------------------+------------+
+    ## | 77      | blme                  | 1.0-5      |
+    ## +---------+-----------------------+------------+
+    ## | 78      | blob                  | 1.2.4      |
+    ## +---------+-----------------------+------------+
+    ## | 79      | blogdown              | 1.16       |
+    ## +---------+-----------------------+------------+
+    ## | 80      | bmp                   | 0.3        |
+    ## +---------+-----------------------+------------+
+    ## | 81      | bnlearn               | 4.8.1      |
+    ## +---------+-----------------------+------------+
+    ## | 82      | bookdown              | 0.33       |
+    ## +---------+-----------------------+------------+
+    ## | 83      | bootnet               | 1.5        |
+    ## +---------+-----------------------+------------+
+    ## | 84      | BradleyTerry2         | 1.1-2      |
+    ## +---------+-----------------------+------------+
+    ## | 85      | brew                  | 1.0-8      |
+    ## +---------+-----------------------+------------+
+    ## | 86      | brglm                 | 0.7.2      |
+    ## +---------+-----------------------+------------+
+    ## | 87      | brglm2                | 0.9        |
+    ## +---------+-----------------------+------------+
+    ## | 88      | bridgesampling        | 1.1-2      |
+    ## +---------+-----------------------+------------+
+    ## | 89      | brio                  | 1.1.3      |
+    ## +---------+-----------------------+------------+
+    ## | 90      | brms                  | 2.19.0     |
+    ## +---------+-----------------------+------------+
+    ## | 91      | Brobdingnag           | 1.2-9      |
+    ## +---------+-----------------------+------------+
+    ## | 92      | broom                 | 1.0.4      |
+    ## +---------+-----------------------+------------+
+    ## | 93      | broom.helpers         | 1.13.0     |
+    ## +---------+-----------------------+------------+
+    ## | 94      | broom.mixed           | 0.2.9.4    |
+    ## +---------+-----------------------+------------+
+    ## | 95      | bslib                 | 0.4.2      |
+    ## +---------+-----------------------+------------+
+    ## | 96      | BWStest               | 0.2.2      |
+    ## +---------+-----------------------+------------+
+    ## | 97      | cachem                | 1.0.7      |
+    ## +---------+-----------------------+------------+
+    ## | 98      | cAIC4                 | 1.0        |
+    ## +---------+-----------------------+------------+
+    ## | 99      | Cairo                 | 1.6-0      |
+    ## +---------+-----------------------+------------+
+    ## | 100     | callr                 | 3.7.3      |
+    ## +---------+-----------------------+------------+
+    ## | 101     | candisc               | 0.8-6      |
+    ## +---------+-----------------------+------------+
+    ## | 102     | car                   | 3.1-2      |
+    ## +---------+-----------------------+------------+
+    ## | 103     | carData               | 3.0-5      |
+    ## +---------+-----------------------+------------+
+    ## | 104     | caret                 | 6.0-94     |
+    ## +---------+-----------------------+------------+
+    ## | 105     | carrier               | 0.1.0      |
+    ## +---------+-----------------------+------------+
+    ## | 106     | catIrt                | 0.5.1      |
+    ## +---------+-----------------------+------------+
+    ## | 107     | caTools               | 1.18.2     |
+    ## +---------+-----------------------+------------+
+    ## | 108     | catR                  | 3.17       |
+    ## +---------+-----------------------+------------+
+    ## | 109     | cellranger            | 1.1.0      |
+    ## +---------+-----------------------+------------+
+    ## | 110     | censReg               | 0.5-36     |
+    ## +---------+-----------------------+------------+
+    ## | 111     | cgam                  | 1.20       |
+    ## +---------+-----------------------+------------+
+    ## | 112     | changepoint           | 2.2.4      |
+    ## +---------+-----------------------+------------+
+    ## | 113     | checkmate             | 2.1.0      |
+    ## +---------+-----------------------+------------+
+    ## | 114     | checkpoint            | 1.0.2      |
+    ## +---------+-----------------------+------------+
+    ## | 115     | chemometrics          | 1.4.2      |
+    ## +---------+-----------------------+------------+
+    ## | 116     | chromote              | 0.1.1      |
+    ## +---------+-----------------------+------------+
+    ## | 117     | chron                 | 2.3-60     |
+    ## +---------+-----------------------+------------+
+    ## | 118     | classInt              | 0.4-9      |
+    ## +---------+-----------------------+------------+
+    ## | 119     | cli                   | 3.6.1      |
+    ## +---------+-----------------------+------------+
+    ## | 120     | clipr                 | 0.8.0      |
+    ## +---------+-----------------------+------------+
+    ## | 121     | clisymbols            | 1.2.0      |
+    ## +---------+-----------------------+------------+
+    ## | 122     | clock                 | 0.6.1      |
+    ## +---------+-----------------------+------------+
+    ## | 123     | clubSandwich          | 0.5.8      |
+    ## +---------+-----------------------+------------+
+    ## | 124     | clue                  | 0.3-64     |
+    ## +---------+-----------------------+------------+
+    ## | 125     | clusterGeneration     | 1.3.7      |
+    ## +---------+-----------------------+------------+
+    ## | 126     | cmdstanr              | 0.5.3      |
+    ## +---------+-----------------------+------------+
+    ## | 127     | cmprsk                | 2.2-11     |
+    ## +---------+-----------------------+------------+
+    ## | 128     | cocor                 | 1.1-4      |
+    ## +---------+-----------------------+------------+
+    ## | 129     | coda                  | 0.19-4     |
+    ## +---------+-----------------------+------------+
+    ## | 130     | cognitiveutils        | 0.0.12     |
+    ## +---------+-----------------------+------------+
+    ## | 131     | coin                  | 1.4-2      |
+    ## +---------+-----------------------+------------+
+    ## | 132     | collapse              | 1.9.3      |
+    ## +---------+-----------------------+------------+
+    ## | 133     | colorspace            | 2.1-0      |
+    ## +---------+-----------------------+------------+
+    ## | 134     | colourpicker          | 1.2.0      |
+    ## +---------+-----------------------+------------+
+    ## | 135     | combinat              | 0.0-8      |
+    ## +---------+-----------------------+------------+
+    ## | 136     | commonmark            | 1.9.0      |
+    ## +---------+-----------------------+------------+
+    ## | 137     | CompQuadForm          | 1.4.3      |
+    ## +---------+-----------------------+------------+
+    ## | 138     | coneproj              | 1.16       |
+    ## +---------+-----------------------+------------+
+    ## | 139     | conf.design           | 2.0.0      |
+    ## +---------+-----------------------+------------+
+    ## | 140     | conflicted            | 1.2.0      |
+    ## +---------+-----------------------+------------+
+    ## | 141     | contfrac              | 1.1-12     |
+    ## +---------+-----------------------+------------+
+    ## | 142     | corpcor               | 1.6.10     |
+    ## +---------+-----------------------+------------+
+    ## | 143     | correlation           | 0.8.3      |
+    ## +---------+-----------------------+------------+
+    ## | 144     | corrplot              | 0.92       |
+    ## +---------+-----------------------+------------+
+    ## | 145     | covr                  | 3.6.2      |
+    ## +---------+-----------------------+------------+
+    ## | 146     | cowplot               | 1.1.1      |
+    ## +---------+-----------------------+------------+
+    ## | 147     | cplm                  | 0.7-10     |
+    ## +---------+-----------------------+------------+
+    ## | 148     | cpm                   | 2.3        |
+    ## +---------+-----------------------+------------+
+    ## | 149     | cpp11                 | 0.4.3      |
+    ## +---------+-----------------------+------------+
+    ## | 150     | crayon                | 1.5.2      |
+    ## +---------+-----------------------+------------+
+    ## | 151     | crch                  | 1.1-2      |
+    ## +---------+-----------------------+------------+
+    ## | 152     | credentials           | 1.3.2      |
+    ## +---------+-----------------------+------------+
+    ## | 153     | crosstalk             | 1.2.0      |
+    ## +---------+-----------------------+------------+
+    ## | 154     | crul                  | 1.3        |
+    ## +---------+-----------------------+------------+
+    ## | 155     | cubature              | 2.0.4.6    |
+    ## +---------+-----------------------+------------+
+    ## | 156     | Cubist                | 0.4.2.1    |
+    ## +---------+-----------------------+------------+
+    ## | 157     | curl                  | 5.0.0      |
+    ## +---------+-----------------------+------------+
+    ## | 158     | CVST                  | 0.2-3      |
+    ## +---------+-----------------------+------------+
+    ## | 159     | CVXR                  | 1.0-11     |
+    ## +---------+-----------------------+------------+
+    ## | 160     | cyclocomp             | 1.1.0      |
+    ## +---------+-----------------------+------------+
+    ## | 161     | data.table            | 1.14.8     |
+    ## +---------+-----------------------+------------+
+    ## | 162     | data.tree             | 1.0.0      |
+    ## +---------+-----------------------+------------+
+    ## | 163     | datawizard            | 0.7.0      |
+    ## +---------+-----------------------+------------+
+    ## | 164     | DBI                   | 1.1.3      |
+    ## +---------+-----------------------+------------+
+    ## | 165     | dbplyr                | 2.3.2      |
+    ## +---------+-----------------------+------------+
+    ## | 166     | dbscan                | 1.1-11     |
+    ## +---------+-----------------------+------------+
+    ## | 167     | decor                 | 1.0.1      |
+    ## +---------+-----------------------+------------+
+    ## | 168     | deldir                | 1.0-6      |
+    ## +---------+-----------------------+------------+
+    ## | 169     | dendextend            | 1.17.1     |
+    ## +---------+-----------------------+------------+
+    ## | 170     | DEoptim               | 2.2-8      |
+    ## +---------+-----------------------+------------+
+    ## | 171     | DEoptimR              | 1.0-11     |
+    ## +---------+-----------------------+------------+
+    ## | 172     | Deriv                 | 4.1.3      |
+    ## +---------+-----------------------+------------+
+    ## | 173     | desc                  | 1.4.2      |
+    ## +---------+-----------------------+------------+
+    ## | 174     | deSolve               | 1.35       |
+    ## +---------+-----------------------+------------+
+    ## | 175     | details               | 0.3.0      |
+    ## +---------+-----------------------+------------+
+    ## | 176     | devtools              | 2.4.5      |
+    ## +---------+-----------------------+------------+
+    ## | 177     | dfidx                 | 0.0-5      |
+    ## +---------+-----------------------+------------+
+    ## | 178     | dfoptim               | 2020.10-1  |
+    ## +---------+-----------------------+------------+
+    ## | 179     | DiagrammeR            | 1.0.9      |
+    ## +---------+-----------------------+------------+
+    ## | 180     | DiagrammeRsvg         | 0.1        |
+    ## +---------+-----------------------+------------+
+    ## | 181     | DiceDesign            | 1.9        |
+    ## +---------+-----------------------+------------+
+    ## | 182     | dichromat             | 2.0-0.1    |
+    ## +---------+-----------------------+------------+
+    ## | 183     | diffobj               | 0.3.5      |
+    ## +---------+-----------------------+------------+
+    ## | 184     | digest                | 0.6.31     |
+    ## +---------+-----------------------+------------+
+    ## | 185     | diptest               | 0.76-0     |
+    ## +---------+-----------------------+------------+
+    ## | 186     | distill               | 1.5        |
+    ## +---------+-----------------------+------------+
+    ## | 187     | distributional        | 0.3.2      |
+    ## +---------+-----------------------+------------+
+    ## | 188     | dmetar                | 0.0.9000   |
+    ## +---------+-----------------------+------------+
+    ## | 189     | docopt                | 0.7.1      |
+    ## +---------+-----------------------+------------+
+    ## | 190     | DoE.base              | 1.2-1      |
+    ## +---------+-----------------------+------------+
+    ## | 191     | DoE.wrapper           | 0.11       |
+    ## +---------+-----------------------+------------+
+    ## | 192     | doFuture              | 1.0.0      |
+    ## +---------+-----------------------+------------+
+    ## | 193     | domir                 | 1.0.0      |
+    ## +---------+-----------------------+------------+
+    ## | 194     | doParallel            | 1.0.17     |
+    ## +---------+-----------------------+------------+
+    ## | 195     | doRNG                 | 1.8.6      |
+    ## +---------+-----------------------+------------+
+    ## | 196     | dotCall64             | 1.0-2      |
+    ## +---------+-----------------------+------------+
+    ## | 197     | dotwhisker            | 0.7.4      |
+    ## +---------+-----------------------+------------+
+    ## | 198     | downlit               | 0.4.2      |
+    ## +---------+-----------------------+------------+
+    ## | 199     | downloader            | 0.4        |
+    ## +---------+-----------------------+------------+
+    ## | 200     | dplyr                 | 1.1.1      |
+    ## +---------+-----------------------+------------+
+    ## | 201     | drc                   | 3.0-1      |
+    ## +---------+-----------------------+------------+
+    ## | 202     | dreamerr              | 1.2.3      |
+    ## +---------+-----------------------+------------+
+    ## | 203     | DRR                   | 0.0.4      |
+    ## +---------+-----------------------+------------+
+    ## | 204     | DstarM                | 0.4.0      |
+    ## +---------+-----------------------+------------+
+    ## | 205     | DT                    | 0.27       |
+    ## +---------+-----------------------+------------+
+    ## | 206     | dtplyr                | 1.3.1      |
+    ## +---------+-----------------------+------------+
+    ## | 207     | duckdb                | 0.7.1-1    |
+    ## +---------+-----------------------+------------+
+    ## | 208     | dygraphs              | 1.1.1.6    |
+    ## +---------+-----------------------+------------+
+    ## | 209     | e1071                 | 1.7-13     |
+    ## +---------+-----------------------+------------+
+    ## | 210     | earth                 | 5.3.2      |
+    ## +---------+-----------------------+------------+
+    ## | 211     | ECOSolveR             | 0.5.4      |
+    ## +---------+-----------------------+------------+
+    ## | 212     | effects               | 4.2-2      |
+    ## +---------+-----------------------+------------+
+    ## | 213     | effectsize            | 0.8.3      |
+    ## +---------+-----------------------+------------+
+    ## | 214     | EGAnet                | 1.2.3      |
+    ## +---------+-----------------------+------------+
+    ## | 215     | egg                   | 0.4.5      |
+    ## +---------+-----------------------+------------+
+    ## | 216     | eigenmodel            | 1.11       |
+    ## +---------+-----------------------+------------+
+    ## | 217     | ellipse               | 0.4.4      |
+    ## +---------+-----------------------+------------+
+    ## | 218     | ellipsis              | 0.3.2      |
+    ## +---------+-----------------------+------------+
+    ## | 219     | elliptic              | 1.4-0      |
+    ## +---------+-----------------------+------------+
+    ## | 220     | emmeans               | 1.8.5      |
+    ## +---------+-----------------------+------------+
+    ## | 221     | enc                   | 0.2.2      |
+    ## +---------+-----------------------+------------+
+    ## | 222     | energy                | 1.7-11     |
+    ## +---------+-----------------------+------------+
+    ## | 223     | english               | 1.2-6      |
+    ## +---------+-----------------------+------------+
+    ## | 224     | enrichwith            | 0.3.1      |
+    ## +---------+-----------------------+------------+
+    ## | 225     | epiR                  | 2.0.59     |
+    ## +---------+-----------------------+------------+
+    ## | 226     | equatiomatic          | 0.3.1      |
+    ## +---------+-----------------------+------------+
+    ## | 227     | esc                   | 0.5.1      |
+    ## +---------+-----------------------+------------+
+    ## | 228     | estimability          | 1.4.1      |
+    ## +---------+-----------------------+------------+
+    ## | 229     | estimatr              | 1.0.0      |
+    ## +---------+-----------------------+------------+
+    ## | 230     | evaluate              | 0.20       |
+    ## +---------+-----------------------+------------+
+    ## | 231     | evd                   | 2.3-6.1    |
+    ## +---------+-----------------------+------------+
+    ## | 232     | ExpertChoice          | 0.2.0      |
+    ## +---------+-----------------------+------------+
+    ## | 233     | expm                  | 0.999-7    |
+    ## +---------+-----------------------+------------+
+    ## | 234     | extraDistr            | 1.9.1      |
+    ## +---------+-----------------------+------------+
+    ## | 235     | extrafont             | 0.19       |
+    ## +---------+-----------------------+------------+
+    ## | 236     | extrafontdb           | 1.0        |
+    ## +---------+-----------------------+------------+
+    ## | 237     | factoextra            | 1.0.7      |
+    ## +---------+-----------------------+------------+
+    ## | 238     | FactoMineR            | 2.8        |
+    ## +---------+-----------------------+------------+
+    ## | 239     | fansi                 | 1.0.4      |
+    ## +---------+-----------------------+------------+
+    ## | 240     | far                   | 0.6-6      |
+    ## +---------+-----------------------+------------+
+    ## | 241     | farver                | 2.1.1      |
+    ## +---------+-----------------------+------------+
+    ## | 242     | fastDummies           | 1.6.3      |
+    ## +---------+-----------------------+------------+
+    ## | 243     | fastGHQuad            | 1.0.1      |
+    ## +---------+-----------------------+------------+
+    ## | 244     | fastICA               | 1.2-3      |
+    ## +---------+-----------------------+------------+
+    ## | 245     | fastmap               | 1.1.1      |
+    ## +---------+-----------------------+------------+
+    ## | 246     | fauxpas               | 0.5.0      |
+    ## +---------+-----------------------+------------+
+    ## | 247     | fdrtool               | 1.2.17     |
+    ## +---------+-----------------------+------------+
+    ## | 248     | feisr                 | 1.3.0      |
+    ## +---------+-----------------------+------------+
+    ## | 249     | fields                | 14.1       |
+    ## +---------+-----------------------+------------+
+    ## | 250     | filelock              | 1.0.2      |
+    ## +---------+-----------------------+------------+
+    ## | 251     | fixest                | 0.11.1     |
+    ## +---------+-----------------------+------------+
+    ## | 252     | flashClust            | 1.01-2     |
+    ## +---------+-----------------------+------------+
+    ## | 253     | flexmix               | 2.3-19     |
+    ## +---------+-----------------------+------------+
+    ## | 254     | flextable             | 0.9.0      |
+    ## +---------+-----------------------+------------+
+    ## | 255     | flock                 | 0.7        |
+    ## +---------+-----------------------+------------+
+    ## | 256     | fmsb                  | 0.7.5      |
+    ## +---------+-----------------------+------------+
+    ## | 257     | FNN                   | 1.1.3.2    |
+    ## +---------+-----------------------+------------+
+    ## | 258     | foghorn               | 1.5.1      |
+    ## +---------+-----------------------+------------+
+    ## | 259     | fontawesome           | 0.5.0      |
+    ## +---------+-----------------------+------------+
+    ## | 260     | fontBitstreamVera     | 0.1.1      |
+    ## +---------+-----------------------+------------+
+    ## | 261     | fontLiberation        | 0.1.0      |
+    ## +---------+-----------------------+------------+
+    ## | 262     | fontquiver            | 0.2.1      |
+    ## +---------+-----------------------+------------+
+    ## | 263     | forcats               | 1.0.0      |
+    ## +---------+-----------------------+------------+
+    ## | 264     | foreach               | 1.5.2      |
+    ## +---------+-----------------------+------------+
+    ## | 265     | forecast              | 8.21       |
+    ## +---------+-----------------------+------------+
+    ## | 266     | formattable           | 0.2.1      |
+    ## +---------+-----------------------+------------+
+    ## | 267     | Formula               | 1.2-5      |
+    ## +---------+-----------------------+------------+
+    ## | 268     | formula.tools         | 1.7.1      |
+    ## +---------+-----------------------+------------+
+    ## | 269     | fpc                   | 2.2-10     |
+    ## +---------+-----------------------+------------+
+    ## | 270     | fracdiff              | 1.5-2      |
+    ## +---------+-----------------------+------------+
+    ## | 271     | FrF2                  | 2.2-3      |
+    ## +---------+-----------------------+------------+
+    ## | 272     | fs                    | 1.6.1      |
+    ## +---------+-----------------------+------------+
+    ## | 273     | fst                   | 0.9.8      |
+    ## +---------+-----------------------+------------+
+    ## | 274     | fstcore               | 0.9.14     |
+    ## +---------+-----------------------+------------+
+    ## | 275     | fungible              | 2.3        |
+    ## +---------+-----------------------+------------+
+    ## | 276     | furrr                 | 0.3.1      |
+    ## +---------+-----------------------+------------+
+    ## | 277     | future                | 1.32.0     |
+    ## +---------+-----------------------+------------+
+    ## | 278     | future.apply          | 1.10.0     |
+    ## +---------+-----------------------+------------+
+    ## | 279     | future.callr          | 0.8.1      |
+    ## +---------+-----------------------+------------+
+    ## | 280     | fxregime              | 1.0-4      |
+    ## +---------+-----------------------+------------+
+    ## | 281     | GA                    | 3.2.3      |
+    ## +---------+-----------------------+------------+
+    ## | 282     | gam                   | 1.22-2     |
+    ## +---------+-----------------------+------------+
+    ## | 283     | gamlss                | 5.4-12     |
+    ## +---------+-----------------------+------------+
+    ## | 284     | gamlss.data           | 6.0-2      |
+    ## +---------+-----------------------+------------+
+    ## | 285     | gamlss.dist           | 6.0-5      |
+    ## +---------+-----------------------+------------+
+    ## | 286     | gamm4                 | 0.2-6      |
+    ## +---------+-----------------------+------------+
+    ## | 287     | gapminder             | 1.0.0      |
+    ## +---------+-----------------------+------------+
+    ## | 288     | gargle                | 1.3.0      |
+    ## +---------+-----------------------+------------+
+    ## | 289     | gbm                   | 2.1.8.1    |
+    ## +---------+-----------------------+------------+
+    ## | 290     | gdata                 | 2.18.0.1   |
+    ## +---------+-----------------------+------------+
+    ## | 291     | gdtools               | 0.3.3      |
+    ## +---------+-----------------------+------------+
+    ## | 292     | gee                   | 4.13-25    |
+    ## +---------+-----------------------+------------+
+    ## | 293     | geepack               | 1.3.9      |
+    ## +---------+-----------------------+------------+
+    ## | 294     | gemtc                 | 1.0-1      |
+    ## +---------+-----------------------+------------+
+    ## | 295     | generics              | 0.1.3      |
+    ## +---------+-----------------------+------------+
+    ## | 296     | geoR                  | 1.9-2      |
+    ## +---------+-----------------------+------------+
+    ## | 297     | geosphere             | 1.5-18     |
+    ## +---------+-----------------------+------------+
+    ## | 298     | gert                  | 1.9.2      |
+    ## +---------+-----------------------+------------+
+    ## | 299     | getPass               | 0.2-2      |
+    ## +---------+-----------------------+------------+
+    ## | 300     | gfonts                | 0.2.0      |
+    ## +---------+-----------------------+------------+
+    ## | 301     | GGally                | 2.1.2      |
+    ## +---------+-----------------------+------------+
+    ## | 302     | gganimate             | 1.0.8      |
+    ## +---------+-----------------------+------------+
+    ## | 303     | ggdendro              | 0.1.23     |
+    ## +---------+-----------------------+------------+
+    ## | 304     | ggdist                | 3.2.1      |
+    ## +---------+-----------------------+------------+
+    ## | 305     | ggdmc                 | 0.2.6.0    |
+    ## +---------+-----------------------+------------+
+    ## | 306     | ggExtra               | 0.10.0     |
+    ## +---------+-----------------------+------------+
+    ## | 307     | ggforce               | 0.4.1      |
+    ## +---------+-----------------------+------------+
+    ## | 308     | ggfortify             | 0.4.16     |
+    ## +---------+-----------------------+------------+
+    ## | 309     | ggmcmc                | 1.5.1.1    |
+    ## +---------+-----------------------+------------+
+    ## | 310     | GGMncv                | 2.1.1      |
+    ## +---------+-----------------------+------------+
+    ## | 311     | GGMnonreg             | 1.0.0      |
+    ## +---------+-----------------------+------------+
+    ## | 312     | ggnetwork             | 0.5.12     |
+    ## +---------+-----------------------+------------+
+    ## | 313     | ggplot2               | 3.4.1      |
+    ## +---------+-----------------------+------------+
+    ## | 314     | ggplot2movies         | 0.0.1      |
+    ## +---------+-----------------------+------------+
+    ## | 315     | ggpubr                | 0.6.0      |
+    ## +---------+-----------------------+------------+
+    ## | 316     | ggraph                | 2.1.0      |
+    ## +---------+-----------------------+------------+
+    ## | 317     | ggrepel               | 0.9.3      |
+    ## +---------+-----------------------+------------+
+    ## | 318     | ggridges              | 0.5.4      |
+    ## +---------+-----------------------+------------+
+    ## | 319     | ggsci                 | 3.0.0      |
+    ## +---------+-----------------------+------------+
+    ## | 320     | ggside                | 0.2.2      |
+    ## +---------+-----------------------+------------+
+    ## | 321     | ggsignif              | 0.6.4      |
+    ## +---------+-----------------------+------------+
+    ## | 322     | ggstance              | 0.3.6      |
+    ## +---------+-----------------------+------------+
+    ## | 323     | ggstats               | 0.2.1      |
+    ## +---------+-----------------------+------------+
+    ## | 324     | ggtext                | 0.1.2      |
+    ## +---------+-----------------------+------------+
+    ## | 325     | ggthemes              | 4.2.4      |
+    ## +---------+-----------------------+------------+
+    ## | 326     | gh                    | 1.4.0      |
+    ## +---------+-----------------------+------------+
+    ## | 327     | gifski                | 1.6.6-1    |
+    ## +---------+-----------------------+------------+
+    ## | 328     | gimme                 | 0.7-13     |
+    ## +---------+-----------------------+------------+
+    ## | 329     | git2r                 | 0.31.0     |
+    ## +---------+-----------------------+------------+
+    ## | 330     | gitcreds              | 0.1.2      |
+    ## +---------+-----------------------+------------+
+    ## | 331     | glasso                | 1.11       |
+    ## +---------+-----------------------+------------+
+    ## | 332     | glassoFast            | 1.0        |
+    ## +---------+-----------------------+------------+
+    ## | 333     | glba                  | 0.2.1      |
+    ## +---------+-----------------------+------------+
+    ## | 334     | GLMMadaptive          | 0.8-8      |
+    ## +---------+-----------------------+------------+
+    ## | 335     | glmmML                | 1.1.4      |
+    ## +---------+-----------------------+------------+
+    ## | 336     | glmmTMB               | 1.1.6      |
+    ## +---------+-----------------------+------------+
+    ## | 337     | glmnet                | 4.1-7      |
+    ## +---------+-----------------------+------------+
+    ## | 338     | globals               | 0.16.2     |
+    ## +---------+-----------------------+------------+
+    ## | 339     | glue                  | 1.6.2      |
+    ## +---------+-----------------------+------------+
+    ## | 340     | gmailr                | 1.0.1      |
+    ## +---------+-----------------------+------------+
+    ## | 341     | gmnl                  | 1.1-3.2    |
+    ## +---------+-----------------------+------------+
+    ## | 342     | gmp                   | 0.7-1      |
+    ## +---------+-----------------------+------------+
+    ## | 343     | gnm                   | 1.1-2      |
+    ## +---------+-----------------------+------------+
+    ## | 344     | googleAuthR           | 2.0.0      |
+    ## +---------+-----------------------+------------+
+    ## | 345     | googleCloudStorageR   | 0.7.0      |
+    ## +---------+-----------------------+------------+
+    ## | 346     | googleComputeEngineR  | 0.3.0      |
+    ## +---------+-----------------------+------------+
+    ## | 347     | googledrive           | 2.1.0      |
+    ## +---------+-----------------------+------------+
+    ## | 348     | googlesheets4         | 1.1.0      |
+    ## +---------+-----------------------+------------+
+    ## | 349     | gower                 | 1.0.1      |
+    ## +---------+-----------------------+------------+
+    ## | 350     | GPArotation           | 2023.3-1   |
+    ## +---------+-----------------------+------------+
+    ## | 351     | gplots                | 3.1.3      |
+    ## +---------+-----------------------+------------+
+    ## | 352     | gptstudio             | 0.1.0      |
+    ## +---------+-----------------------+------------+
+    ## | 353     | gRain                 | 1.3.13     |
+    ## +---------+-----------------------+------------+
+    ## | 354     | gramr                 | 0.0.0.9000 |
+    ## +---------+-----------------------+------------+
+    ## | 355     | graph                 | 1.76.0     |
+    ## +---------+-----------------------+------------+
+    ## | 356     | graphicalVAR          | 0.3        |
+    ## +---------+-----------------------+------------+
+    ## | 357     | graphlayouts          | 0.8.4      |
+    ## +---------+-----------------------+------------+
+    ## | 358     | gRbase                | 1.8.9      |
+    ## +---------+-----------------------+------------+
+    ## | 359     | gridBase              | 0.4-7      |
+    ## +---------+-----------------------+------------+
+    ## | 360     | gridExtra             | 2.3        |
+    ## +---------+-----------------------+------------+
+    ## | 361     | gridGraphics          | 0.5-1      |
+    ## +---------+-----------------------+------------+
+    ## | 362     | gridtext              | 0.1.5      |
+    ## +---------+-----------------------+------------+
+    ## | 363     | grpreg                | 3.4.0      |
+    ## +---------+-----------------------+------------+
+    ## | 364     | gsl                   | 2.1-8      |
+    ## +---------+-----------------------+------------+
+    ## | 365     | gsubfn                | 0.7        |
+    ## +---------+-----------------------+------------+
+    ## | 366     | gt                    | 0.8.0      |
+    ## +---------+-----------------------+------------+
+    ## | 367     | gtable                | 0.3.3      |
+    ## +---------+-----------------------+------------+
+    ## | 368     | gtools                | 3.9.4      |
+    ## +---------+-----------------------+------------+
+    ## | 369     | gtrendsR              | 1.5.1      |
+    ## +---------+-----------------------+------------+
+    ## | 370     | gtsummary             | 1.7.0      |
+    ## +---------+-----------------------+------------+
+    ## | 371     | hardhat               | 1.3.0      |
+    ## +---------+-----------------------+------------+
+    ## | 372     | hash                  | 2.2.6.2    |
+    ## +---------+-----------------------+------------+
+    ## | 373     | hasseDiagram          | 0.2.0      |
+    ## +---------+-----------------------+------------+
+    ## | 374     | haven                 | 2.5.2      |
+    ## +---------+-----------------------+------------+
+    ## | 375     | hBayesDM              | 1.2.1      |
+    ## +---------+-----------------------+------------+
+    ## | 376     | HDInterval            | 0.2.4      |
+    ## +---------+-----------------------+------------+
+    ## | 377     | heplots               | 1.4-2      |
+    ## +---------+-----------------------+------------+
+    ## | 378     | here                  | 1.0.1      |
+    ## +---------+-----------------------+------------+
+    ## | 379     | hexbin                | 1.28.3     |
+    ## +---------+-----------------------+------------+
+    ## | 380     | highr                 | 0.10       |
+    ## +---------+-----------------------+------------+
+    ## | 381     | Hmisc                 | 5.0-1      |
+    ## +---------+-----------------------+------------+
+    ## | 382     | hms                   | 1.1.3      |
+    ## +---------+-----------------------+------------+
+    ## | 383     | HSAUR3                | 1.0-13     |
+    ## +---------+-----------------------+------------+
+    ## | 384     | htmlTable             | 2.4.1      |
+    ## +---------+-----------------------+------------+
+    ## | 385     | htmltools             | 0.5.5      |
+    ## +---------+-----------------------+------------+
+    ## | 386     | htmlwidgets           | 1.6.2      |
+    ## +---------+-----------------------+------------+
+    ## | 387     | httpcode              | 0.3.0      |
+    ## +---------+-----------------------+------------+
+    ## | 388     | httpuv                | 1.6.9      |
+    ## +---------+-----------------------+------------+
+    ## | 389     | httr                  | 1.4.5      |
+    ## +---------+-----------------------+------------+
+    ## | 390     | httr2                 | 0.2.2      |
+    ## +---------+-----------------------+------------+
+    ## | 391     | huge                  | 1.3.5      |
+    ## +---------+-----------------------+------------+
+    ## | 392     | humaniformat          | 0.6.0      |
+    ## +---------+-----------------------+------------+
+    ## | 393     | hunspell              | 3.0.2      |
+    ## +---------+-----------------------+------------+
+    ## | 394     | huxtable              | 5.5.2      |
+    ## +---------+-----------------------+------------+
+    ## | 395     | hypergeo              | 1.2-13     |
+    ## +---------+-----------------------+------------+
+    ## | 396     | ICS                   | 1.3-1      |
+    ## +---------+-----------------------+------------+
+    ## | 397     | ICSOutlier            | 0.3-0      |
+    ## +---------+-----------------------+------------+
+    ## | 398     | ids                   | 1.0.1      |
+    ## +---------+-----------------------+------------+
+    ## | 399     | igraph                | 1.4.1      |
+    ## +---------+-----------------------+------------+
+    ## | 400     | imager                | 0.42.19    |
+    ## +---------+-----------------------+------------+
+    ## | 401     | imputeTS              | 3.3        |
+    ## +---------+-----------------------+------------+
+    ## | 402     | influenceR            | 0.1.0.1    |
+    ## +---------+-----------------------+------------+
+    ## | 403     | ini                   | 0.3.1      |
+    ## +---------+-----------------------+------------+
+    ## | 404     | inline                | 0.3.19     |
+    ## +---------+-----------------------+------------+
+    ## | 405     | insight               | 0.19.1     |
+    ## +---------+-----------------------+------------+
+    ## | 406     | intergraph            | 2.0-2      |
+    ## +---------+-----------------------+------------+
+    ## | 407     | interp                | 1.1-3      |
+    ## +---------+-----------------------+------------+
+    ## | 408     | inum                  | 1.0-5      |
+    ## +---------+-----------------------+------------+
+    ## | 409     | ipred                 | 0.9-14     |
+    ## +---------+-----------------------+------------+
+    ## | 410     | IRdisplay             | 1.1        |
+    ## +---------+-----------------------+------------+
+    ## | 411     | irr                   | 0.84.1     |
+    ## +---------+-----------------------+------------+
+    ## | 412     | irtoys                | 0.2.2      |
+    ## +---------+-----------------------+------------+
+    ## | 413     | IsingFit              | 0.3.1      |
+    ## +---------+-----------------------+------------+
+    ## | 414     | IsingSampler          | 0.2.1      |
+    ## +---------+-----------------------+------------+
+    ## | 415     | ISLR                  | 1.4        |
+    ## +---------+-----------------------+------------+
+    ## | 416     | isoband               | 0.2.7      |
+    ## +---------+-----------------------+------------+
+    ## | 417     | ISwR                  | 2.0-8      |
+    ## +---------+-----------------------+------------+
+    ## | 418     | iterators             | 1.0.14     |
+    ## +---------+-----------------------+------------+
+    ## | 419     | ivprobit              | 1.1        |
+    ## +---------+-----------------------+------------+
+    ## | 420     | ivreg                 | 0.6-2      |
+    ## +---------+-----------------------+------------+
+    ## | 421     | jagsUI                | 1.5.2      |
+    ## +---------+-----------------------+------------+
+    ## | 422     | JM                    | 1.5-2      |
+    ## +---------+-----------------------+------------+
+    ## | 423     | jomo                  | 2.7-5      |
+    ## +---------+-----------------------+------------+
+    ## | 424     | jpaRmd                | 0.5.4      |
+    ## +---------+-----------------------+------------+
+    ## | 425     | jpeg                  | 0.1-10     |
+    ## +---------+-----------------------+------------+
+    ## | 426     | jquerylib             | 0.1.4      |
+    ## +---------+-----------------------+------------+
+    ## | 427     | jsonlite              | 1.8.4      |
+    ## +---------+-----------------------+------------+
+    ## | 428     | jtools                | 2.2.1      |
+    ## +---------+-----------------------+------------+
+    ## | 429     | juicyjuice            | 0.1.0      |
+    ## +---------+-----------------------+------------+
+    ## | 430     | JuliaCall             | 0.17.5     |
+    ## +---------+-----------------------+------------+
+    ## | 431     | JuliaConnectoR        | 1.1.1      |
+    ## +---------+-----------------------+------------+
+    ## | 432     | kableExtra            | 1.3.4      |
+    ## +---------+-----------------------+------------+
+    ## | 433     | kernlab               | 0.9-32     |
+    ## +---------+-----------------------+------------+
+    ## | 434     | keyring               | 1.3.1      |
+    ## +---------+-----------------------+------------+
+    ## | 435     | klaR                  | 1.7-2      |
+    ## +---------+-----------------------+------------+
+    ## | 436     | knitr                 | 1.42       |
+    ## +---------+-----------------------+------------+
+    ## | 437     | koRpus                | 0.13-8     |
+    ## +---------+-----------------------+------------+
+    ## | 438     | koRpus.lang.en        | 0.1-4      |
+    ## +---------+-----------------------+------------+
+    ## | 439     | ks                    | 1.14.0     |
+    ## +---------+-----------------------+------------+
+    ## | 440     | kSamples              | 1.2-9      |
+    ## +---------+-----------------------+------------+
+    ## | 441     | kutils                | 1.70       |
+    ## +---------+-----------------------+------------+
+    ## | 442     | labeling              | 0.4.2      |
+    ## +---------+-----------------------+------------+
+    ## | 443     | labelled              | 2.10.0     |
+    ## +---------+-----------------------+------------+
+    ## | 444     | labelVector           | 0.1.2      |
+    ## +---------+-----------------------+------------+
+    ## | 445     | laeken                | 0.5.2      |
+    ## +---------+-----------------------+------------+
+    ## | 446     | Lahman                | 10.0-1     |
+    ## +---------+-----------------------+------------+
+    ## | 447     | LaplacesDemon         | 16.1.6     |
+    ## +---------+-----------------------+------------+
+    ## | 448     | lars                  | 1.3        |
+    ## +---------+-----------------------+------------+
+    ## | 449     | later                 | 1.3.0      |
+    ## +---------+-----------------------+------------+
+    ## | 450     | latex2exp             | 0.9.6      |
+    ## +---------+-----------------------+------------+
+    ## | 451     | latticeExtra          | 0.6-30     |
+    ## +---------+-----------------------+------------+
+    ## | 452     | lava                  | 1.7.2.1    |
+    ## +---------+-----------------------+------------+
+    ## | 453     | lavaan                | 0.6-15     |
+    ## +---------+-----------------------+------------+
+    ## | 454     | lavaSearch2           | 1.5.6      |
+    ## +---------+-----------------------+------------+
+    ## | 455     | lazyeval              | 0.2.2      |
+    ## +---------+-----------------------+------------+
+    ## | 456     | leaflet               | 2.1.2      |
+    ## +---------+-----------------------+------------+
+    ## | 457     | leaflet.providers     | 1.9.0      |
+    ## +---------+-----------------------+------------+
+    ## | 458     | leaps                 | 3.1        |
+    ## +---------+-----------------------+------------+
+    ## | 459     | lfe                   | 2.9-0      |
+    ## +---------+-----------------------+------------+
+    ## | 460     | lhs                   | 1.1.6      |
+    ## +---------+-----------------------+------------+
+    ## | 461     | libcoin               | 1.0-9      |
+    ## +---------+-----------------------+------------+
+    ## | 462     | lifecycle             | 1.0.3      |
+    ## +---------+-----------------------+------------+
+    ## | 463     | linprog               | 0.9-4      |
+    ## +---------+-----------------------+------------+
+    ## | 464     | lintr                 | 3.0.2      |
+    ## +---------+-----------------------+------------+
+    ## | 465     | lisrelToR             | 0.1.5      |
+    ## +---------+-----------------------+------------+
+    ## | 466     | listenv               | 0.9.0      |
+    ## +---------+-----------------------+------------+
+    ## | 467     | littler               | 0.3.18     |
+    ## +---------+-----------------------+------------+
+    ## | 468     | lm.beta               | 1.7-2      |
+    ## +---------+-----------------------+------------+
+    ## | 469     | lme4                  | 1.1-32     |
+    ## +---------+-----------------------+------------+
+    ## | 470     | lmerTest              | 3.1-3      |
+    ## +---------+-----------------------+------------+
+    ## | 471     | lmtest                | 0.9-40     |
+    ## +---------+-----------------------+------------+
+    ## | 472     | lobstr                | 1.1.2      |
+    ## +---------+-----------------------+------------+
+    ## | 473     | logcondens            | 2.1.7      |
+    ## +---------+-----------------------+------------+
+    ## | 474     | logger                | 0.2.2      |
+    ## +---------+-----------------------+------------+
+    ## | 475     | logging               | 0.10-108   |
+    ## +---------+-----------------------+------------+
+    ## | 476     | logistf               | 1.24.1     |
+    ## +---------+-----------------------+------------+
+    ## | 477     | logitr                | 1.0.1      |
+    ## +---------+-----------------------+------------+
+    ## | 478     | logspline             | 2.1.19     |
+    ## +---------+-----------------------+------------+
+    ## | 479     | loo                   | 2.5.1      |
+    ## +---------+-----------------------+------------+
+    ## | 480     | lpSolve               | 5.6.18     |
+    ## +---------+-----------------------+------------+
+    ## | 481     | lqmm                  | 1.5.8      |
+    ## +---------+-----------------------+------------+
+    ## | 482     | ltm                   | 1.2-0      |
+    ## +---------+-----------------------+------------+
+    ## | 483     | lubridate             | 1.9.2      |
+    ## +---------+-----------------------+------------+
+    ## | 484     | magic                 | 1.6-1      |
+    ## +---------+-----------------------+------------+
+    ## | 485     | magick                | 2.7.4      |
+    ## +---------+-----------------------+------------+
+    ## | 486     | magrittr              | 2.0.3      |
+    ## +---------+-----------------------+------------+
+    ## | 487     | mapproj               | 1.2.11     |
+    ## +---------+-----------------------+------------+
+    ## | 488     | maps                  | 3.4.1      |
+    ## +---------+-----------------------+------------+
+    ## | 489     | marginaleffects       | 0.11.0     |
+    ## +---------+-----------------------+------------+
+    ## | 490     | margins               | 0.3.26     |
+    ## +---------+-----------------------+------------+
+    ## | 491     | markdown              | 1.5        |
+    ## +---------+-----------------------+------------+
+    ## | 492     | mathjaxr              | 1.6-0      |
+    ## +---------+-----------------------+------------+
+    ## | 493     | matlib                | 0.9.6      |
+    ## +---------+-----------------------+------------+
+    ## | 494     | matrixcalc            | 1.0-6      |
+    ## +---------+-----------------------+------------+
+    ## | 495     | MatrixModels          | 0.5-1      |
+    ## +---------+-----------------------+------------+
+    ## | 496     | matrixStats           | 0.63.0     |
+    ## +---------+-----------------------+------------+
+    ## | 497     | maxLik                | 1.5-2      |
+    ## +---------+-----------------------+------------+
+    ## | 498     | mbend                 | 1.3.1      |
+    ## +---------+-----------------------+------------+
+    ## | 499     | MBESS                 | 4.9.2      |
+    ## +---------+-----------------------+------------+
+    ## | 500     | mbest                 | 0.6        |
+    ## +---------+-----------------------+------------+
+    ## | 501     | mc2d                  | 0.1-22     |
+    ## +---------+-----------------------+------------+
+    ## | 502     | mclogit               | 0.9.6      |
+    ## +---------+-----------------------+------------+
+    ## | 503     | mclust                | 6.0.0      |
+    ## +---------+-----------------------+------------+
+    ## | 504     | MCMCglmm              | 2.34       |
+    ## +---------+-----------------------+------------+
+    ## | 505     | mda                   | 0.5-3      |
+    ## +---------+-----------------------+------------+
+    ## | 506     | MDPtoolbox            | 4.0.3      |
+    ## +---------+-----------------------+------------+
+    ## | 507     | mediation             | 4.5.0      |
+    ## +---------+-----------------------+------------+
+    ## | 508     | memisc                | 0.99.31.6  |
+    ## +---------+-----------------------+------------+
+    ## | 509     | memoise               | 2.0.1      |
+    ## +---------+-----------------------+------------+
+    ## | 510     | MEMSS                 | 0.9-3      |
+    ## +---------+-----------------------+------------+
+    ## | 511     | memuse                | 4.2-3      |
+    ## +---------+-----------------------+------------+
+    ## | 512     | merDeriv              | 0.2-4      |
+    ## +---------+-----------------------+------------+
+    ## | 513     | merTools              | 0.6.1      |
+    ## +---------+-----------------------+------------+
+    ## | 514     | meta                  | 6.2-1      |
+    ## +---------+-----------------------+------------+
+    ## | 515     | metaBMA               | 0.6.7      |
+    ## +---------+-----------------------+------------+
+    ## | 516     | metadat               | 1.2-0      |
+    ## +---------+-----------------------+------------+
+    ## | 517     | metafor               | 4.0-0      |
+    ## +---------+-----------------------+------------+
+    ## | 518     | metaplus              | 1.0-4      |
+    ## +---------+-----------------------+------------+
+    ## | 519     | metaSEM               | 1.3.0      |
+    ## +---------+-----------------------+------------+
+    ## | 520     | mfx                   | 1.2-2      |
+    ## +---------+-----------------------+------------+
+    ## | 521     | mgm                   | 1.2-13     |
+    ## +---------+-----------------------+------------+
+    ## | 522     | mhurdle               | 1.3-0      |
+    ## +---------+-----------------------+------------+
+    ## | 523     | mi                    | 1.1        |
+    ## +---------+-----------------------+------------+
+    ## | 524     | mice                  | 3.15.0     |
+    ## +---------+-----------------------+------------+
+    ## | 525     | miceadds              | 3.16-18    |
+    ## +---------+-----------------------+------------+
+    ## | 526     | microbenchmark        | 1.4.9      |
+    ## +---------+-----------------------+------------+
+    ## | 527     | MIIVsem               | 0.5.8      |
+    ## +---------+-----------------------+------------+
+    ## | 528     | mime                  | 0.12       |
+    ## +---------+-----------------------+------------+
+    ## | 529     | miniUI                | 0.1.1.1    |
+    ## +---------+-----------------------+------------+
+    ## | 530     | minqa                 | 1.2.5      |
+    ## +---------+-----------------------+------------+
+    ## | 531     | misc3d                | 0.9-1      |
+    ## +---------+-----------------------+------------+
+    ## | 532     | miscTools             | 0.6-26     |
+    ## +---------+-----------------------+------------+
+    ## | 533     | missRanger            | 2.2.0      |
+    ## +---------+-----------------------+------------+
+    ## | 534     | mitml                 | 0.4-5      |
+    ## +---------+-----------------------+------------+
+    ## | 535     | mitools               | 2.4        |
+    ## +---------+-----------------------+------------+
+    ## | 536     | mlbench               | 2.1-3      |
+    ## +---------+-----------------------+------------+
+    ## | 537     | MLmetrics             | 1.1.1      |
+    ## +---------+-----------------------+------------+
+    ## | 538     | mlmRev                | 1.0-8      |
+    ## +---------+-----------------------+------------+
+    ## | 539     | mlogit                | 1.1-1      |
+    ## +---------+-----------------------+------------+
+    ## | 540     | mlVAR                 | 0.5        |
+    ## +---------+-----------------------+------------+
+    ## | 541     | mmrm                  | 0.2.2      |
+    ## +---------+-----------------------+------------+
+    ## | 542     | mnormt                | 2.1.1      |
+    ## +---------+-----------------------+------------+
+    ## | 543     | mockery               | 0.4.3      |
+    ## +---------+-----------------------+------------+
+    ## | 544     | mockr                 | 0.2.1      |
+    ## +---------+-----------------------+------------+
+    ## | 545     | modelbased            | 0.8.6      |
+    ## +---------+-----------------------+------------+
+    ## | 546     | modelenv              | 0.1.1      |
+    ## +---------+-----------------------+------------+
+    ## | 547     | ModelMetrics          | 1.2.2.2    |
+    ## +---------+-----------------------+------------+
+    ## | 548     | modelr                | 0.1.11     |
+    ## +---------+-----------------------+------------+
+    ## | 549     | modeltools            | 0.2-23     |
+    ## +---------+-----------------------+------------+
+    ## | 550     | moments               | 0.14.1     |
+    ## +---------+-----------------------+------------+
+    ## | 551     | MplusAutomation       | 1.1.0      |
+    ## +---------+-----------------------+------------+
+    ## | 552     | msm                   | 1.7        |
+    ## +---------+-----------------------+------------+
+    ## | 553     | multcomp              | 1.4-23     |
+    ## +---------+-----------------------+------------+
+    ## | 554     | multcompView          | 0.1-8      |
+    ## +---------+-----------------------+------------+
+    ## | 555     | multgee               | 1.8.0      |
+    ## +---------+-----------------------+------------+
+    ## | 556     | multicool             | 0.1-12     |
+    ## +---------+-----------------------+------------+
+    ## | 557     | multimode             | 1.5        |
+    ## +---------+-----------------------+------------+
+    ## | 558     | MuMIn                 | 1.47.5     |
+    ## +---------+-----------------------+------------+
+    ## | 559     | munsell               | 0.5.0      |
+    ## +---------+-----------------------+------------+
+    ## | 560     | mvnfast               | 0.2.8      |
+    ## +---------+-----------------------+------------+
+    ## | 561     | mvtnorm               | 1.1-3      |
+    ## +---------+-----------------------+------------+
+    ## | 562     | nabor                 | 0.5.0      |
+    ## +---------+-----------------------+------------+
+    ## | 563     | NbClust               | 3.0.1      |
+    ## +---------+-----------------------+------------+
+    ## | 564     | netmeta               | 2.8-1      |
+    ## +---------+-----------------------+------------+
+    ## | 565     | network               | 1.18.1     |
+    ## +---------+-----------------------+------------+
+    ## | 566     | NetworkComparisonTest | 2.2.1      |
+    ## +---------+-----------------------+------------+
+    ## | 567     | NetworkToolbox        | 1.4.2      |
+    ## +---------+-----------------------+------------+
+    ## | 568     | networktools          | 1.5.0      |
+    ## +---------+-----------------------+------------+
+    ## | 569     | networktree           | 1.0.1      |
+    ## +---------+-----------------------+------------+
+    ## | 570     | neuralnet             | 1.44.2     |
+    ## +---------+-----------------------+------------+
+    ## | 571     | nFactors              | 2.4.1.1    |
+    ## +---------+-----------------------+------------+
+    ## | 572     | NlcOptim              | 0.6        |
+    ## +---------+-----------------------+------------+
+    ## | 573     | nleqslv               | 3.3.4      |
+    ## +---------+-----------------------+------------+
+    ## | 574     | nloptr                | 2.0.3      |
+    ## +---------+-----------------------+------------+
+    ## | 575     | nnls                  | 1.4        |
+    ## +---------+-----------------------+------------+
+    ## | 576     | nonnest2              | 0.5-5      |
+    ## +---------+-----------------------+------------+
+    ## | 577     | numbers               | 0.8-5      |
+    ## +---------+-----------------------+------------+
+    ## | 578     | numDeriv              | 2016.8-1.1 |
+    ## +---------+-----------------------+------------+
+    ## | 579     | nycflights13          | 1.0.2      |
+    ## +---------+-----------------------+------------+
+    ## | 580     | officer               | 0.6.2      |
+    ## +---------+-----------------------+------------+
+    ## | 581     | oompaBase             | 3.2.9      |
+    ## +---------+-----------------------+------------+
+    ## | 582     | oompaData             | 3.1.3      |
+    ## +---------+-----------------------+------------+
+    ## | 583     | opdisDownsampling     | 0.8.2      |
+    ## +---------+-----------------------+------------+
+    ## | 584     | OpenMx                | 2.21.1     |
+    ## +---------+-----------------------+------------+
+    ## | 585     | openssl               | 2.0.6      |
+    ## +---------+-----------------------+------------+
+    ## | 586     | openxlsx              | 4.2.5.2    |
+    ## +---------+-----------------------+------------+
+    ## | 587     | operator.tools        | 1.6.3      |
+    ## +---------+-----------------------+------------+
+    ## | 588     | optimx                | 2022-4.30  |
+    ## +---------+-----------------------+------------+
+    ## | 589     | ordinal               | 2022.11-16 |
+    ## +---------+-----------------------+------------+
+    ## | 590     | osfr                  | 0.2.9      |
+    ## +---------+-----------------------+------------+
+    ## | 591     | osqp                  | 0.6.0.8    |
+    ## +---------+-----------------------+------------+
+    ## | 592     | packrat               | 0.9.1      |
+    ## +---------+-----------------------+------------+
+    ## | 593     | pak                   | 0.4.0      |
+    ## +---------+-----------------------+------------+
+    ## | 594     | pamr                  | 1.56.1     |
+    ## +---------+-----------------------+------------+
+    ## | 595     | pan                   | 1.6        |
+    ## +---------+-----------------------+------------+
+    ## | 596     | pander                | 0.6.5      |
+    ## +---------+-----------------------+------------+
+    ## | 597     | panelr                | 0.7.7      |
+    ## +---------+-----------------------+------------+
+    ## | 598     | papaja                | 0.1.1      |
+    ## +---------+-----------------------+------------+
+    ## | 599     | parallelly            | 1.35.0     |
+    ## +---------+-----------------------+------------+
+    ## | 600     | parameters            | 0.20.2     |
+    ## +---------+-----------------------+------------+
+    ## | 601     | parsedate             | 1.3.1      |
+    ## +---------+-----------------------+------------+
+    ## | 602     | parsnip               | 1.0.4      |
+    ## +---------+-----------------------+------------+
+    ## | 603     | partitions            | 1.10-7     |
+    ## +---------+-----------------------+------------+
+    ## | 604     | party                 | 1.3-13     |
+    ## +---------+-----------------------+------------+
+    ## | 605     | partykit              | 1.2-19     |
+    ## +---------+-----------------------+------------+
+    ## | 606     | patchwork             | 1.1.2      |
+    ## +---------+-----------------------+------------+
+    ## | 607     | pbapply               | 1.7-0      |
+    ## +---------+-----------------------+------------+
+    ## | 608     | pbivnorm              | 0.6.0      |
+    ## +---------+-----------------------+------------+
+    ## | 609     | pbkrtest              | 0.5.2      |
+    ## +---------+-----------------------+------------+
+    ## | 610     | pbmcapply             | 1.5.1      |
+    ## +---------+-----------------------+------------+
+    ## | 611     | pbv                   | 0.4-22     |
+    ## +---------+-----------------------+------------+
+    ## | 612     | pcaPP                 | 2.0-3      |
+    ## +---------+-----------------------+------------+
+    ## | 613     | pdftools              | 3.3.3      |
+    ## +---------+-----------------------+------------+
+    ## | 614     | performance           | 0.10.2     |
+    ## +---------+-----------------------+------------+
+    ## | 615     | phylolm               | 2.6.2      |
+    ## +---------+-----------------------+------------+
+    ## | 616     | phyr                  | 1.1.0      |
+    ## +---------+-----------------------+------------+
+    ## | 617     | pillar                | 1.9.0      |
+    ## +---------+-----------------------+------------+
+    ## | 618     | pingr                 | 2.0.2      |
+    ## +---------+-----------------------+------------+
+    ## | 619     | pixiedust             | 0.9.1      |
+    ## +---------+-----------------------+------------+
+    ## | 620     | pkgbuild              | 1.4.0      |
+    ## +---------+-----------------------+------------+
+    ## | 621     | pkgcache              | 2.0.4      |
+    ## +---------+-----------------------+------------+
+    ## | 622     | pkgconfig             | 2.0.3      |
+    ## +---------+-----------------------+------------+
+    ## | 623     | pkgdepends            | 0.4.0      |
+    ## +---------+-----------------------+------------+
+    ## | 624     | pkgdown               | 2.0.7      |
+    ## +---------+-----------------------+------------+
+    ## | 625     | pkgload               | 1.3.2      |
+    ## +---------+-----------------------+------------+
+    ## | 626     | plm                   | 2.6-2      |
+    ## +---------+-----------------------+------------+
+    ## | 627     | plogr                 | 0.2.0      |
+    ## +---------+-----------------------+------------+
+    ## | 628     | plot3D                | 1.4        |
+    ## +---------+-----------------------+------------+
+    ## | 629     | plotly                | 4.10.1     |
+    ## +---------+-----------------------+------------+
+    ## | 630     | plotmo                | 3.6.2      |
+    ## +---------+-----------------------+------------+
+    ## | 631     | plotrix               | 3.8-2      |
+    ## +---------+-----------------------+------------+
+    ## | 632     | pls                   | 2.8-1      |
+    ## +---------+-----------------------+------------+
+    ## | 633     | plyr                  | 1.8.8      |
+    ## +---------+-----------------------+------------+
+    ## | 634     | PMCMRplus             | 1.9.6      |
+    ## +---------+-----------------------+------------+
+    ## | 635     | png                   | 0.1-8      |
+    ## +---------+-----------------------+------------+
+    ## | 636     | poibin                | 1.5        |
+    ## +---------+-----------------------+------------+
+    ## | 637     | polspline             | 1.1.22     |
+    ## +---------+-----------------------+------------+
+    ## | 638     | polyclip              | 1.10-4     |
+    ## +---------+-----------------------+------------+
+    ## | 639     | polycor               | 0.8-1      |
+    ## +---------+-----------------------+------------+
+    ## | 640     | polynom               | 1.4-1      |
+    ## +---------+-----------------------+------------+
+    ## | 641     | poorman               | 0.2.6      |
+    ## +---------+-----------------------+------------+
+    ## | 642     | posterior             | 1.4.1      |
+    ## +---------+-----------------------+------------+
+    ## | 643     | ppcor                 | 1.1        |
+    ## +---------+-----------------------+------------+
+    ## | 644     | prabclus              | 2.3-2      |
+    ## +---------+-----------------------+------------+
+    ## | 645     | pracma                | 2.4.2      |
+    ## +---------+-----------------------+------------+
+    ## | 646     | praise                | 1.0.0      |
+    ## +---------+-----------------------+------------+
+    ## | 647     | prediction            | 0.3.14     |
+    ## +---------+-----------------------+------------+
+    ## | 648     | prereg                | 0.6.0      |
+    ## +---------+-----------------------+------------+
+    ## | 649     | prettyunits           | 1.1.1      |
+    ## +---------+-----------------------+------------+
+    ## | 650     | pROC                  | 1.18.0     |
+    ## +---------+-----------------------+------------+
+    ## | 651     | processx              | 3.8.0      |
+    ## +---------+-----------------------+------------+
+    ## | 652     | prodlim               | 2019.11.13 |
+    ## +---------+-----------------------+------------+
+    ## | 653     | profileModel          | 0.6.1      |
+    ## +---------+-----------------------+------------+
+    ## | 654     | profvis               | 0.3.7      |
+    ## +---------+-----------------------+------------+
+    ## | 655     | progress              | 1.2.2      |
+    ## +---------+-----------------------+------------+
+    ## | 656     | progressr             | 0.13.0     |
+    ## +---------+-----------------------+------------+
+    ## | 657     | projpred              | 2.4.0      |
+    ## +---------+-----------------------+------------+
+    ## | 658     | promises              | 1.2.0.1    |
+    ## +---------+-----------------------+------------+
+    ## | 659     | PROreg                | 1.2        |
+    ## +---------+-----------------------+------------+
+    ## | 660     | proto                 | 1.0.0      |
+    ## +---------+-----------------------+------------+
+    ## | 661     | proxy                 | 0.4-27     |
+    ## +---------+-----------------------+------------+
+    ## | 662     | pryr                  | 0.1.6      |
+    ## +---------+-----------------------+------------+
+    ## | 663     | ps                    | 1.7.3      |
+    ## +---------+-----------------------+------------+
+    ## | 664     | pscl                  | 1.5.5      |
+    ## +---------+-----------------------+------------+
+    ## | 665     | pso                   | 1.0.4      |
+    ## +---------+-----------------------+------------+
+    ## | 666     | psych                 | 2.3.3      |
+    ## +---------+-----------------------+------------+
+    ## | 667     | psycho                | 0.6.1      |
+    ## +---------+-----------------------+------------+
+    ## | 668     | psychonetrics         | 0.10       |
+    ## +---------+-----------------------+------------+
+    ## | 669     | psychTools            | 2.3.3      |
+    ## +---------+-----------------------+------------+
+    ## | 670     | psyinfr               | 0.1.4      |
+    ## +---------+-----------------------+------------+
+    ## | 671     | purrr                 | 1.0.1      |
+    ## +---------+-----------------------+------------+
+    ## | 672     | pvclust               | 2.2-0      |
+    ## +---------+-----------------------+------------+
+    ## | 673     | pwr                   | 1.3-0      |
+    ## +---------+-----------------------+------------+
+    ## | 674     | qgraph                | 1.9.4      |
+    ## +---------+-----------------------+------------+
+    ## | 675     | qlcMatrix             | 0.9.7      |
+    ## +---------+-----------------------+------------+
+    ## | 676     | qpdf                  | 1.3.2      |
+    ## +---------+-----------------------+------------+
+    ## | 677     | qqconf                | 1.3.1      |
+    ## +---------+-----------------------+------------+
+    ## | 678     | qqplotr               | 0.0.6      |
+    ## +---------+-----------------------+------------+
+    ## | 679     | qreport               | 0.1.0      |
+    ## +---------+-----------------------+------------+
+    ## | 680     | quadprog              | 1.5-8      |
+    ## +---------+-----------------------+------------+
+    ## | 681     | quantmod              | 0.4.20     |
+    ## +---------+-----------------------+------------+
+    ## | 682     | quantreg              | 5.94       |
+    ## +---------+-----------------------+------------+
+    ## | 683     | questionr             | 0.7.8      |
+    ## +---------+-----------------------+------------+
+    ## | 684     | qvcalc                | 1.0.2      |
+    ## +---------+-----------------------+------------+
+    ## | 685     | R.cache               | 0.16.0     |
+    ## +---------+-----------------------+------------+
+    ## | 686     | R.matlab              | 3.7.0      |
+    ## +---------+-----------------------+------------+
+    ## | 687     | R.methodsS3           | 1.8.2      |
+    ## +---------+-----------------------+------------+
+    ## | 688     | R.oo                  | 1.25.0     |
+    ## +---------+-----------------------+------------+
+    ## | 689     | R.rsp                 | 0.45.0     |
+    ## +---------+-----------------------+------------+
+    ## | 690     | R.utils               | 2.12.2     |
+    ## +---------+-----------------------+------------+
+    ## | 691     | r2d3                  | 0.2.6      |
+    ## +---------+-----------------------+------------+
+    ## | 692     | R6                    | 2.5.1      |
+    ## +---------+-----------------------+------------+
+    ## | 693     | ragg                  | 1.2.5      |
+    ## +---------+-----------------------+------------+
+    ## | 694     | randomForest          | 4.7-1.1    |
+    ## +---------+-----------------------+------------+
+    ## | 695     | randtoolbox           | 2.0.4      |
+    ## +---------+-----------------------+------------+
+    ## | 696     | ranger                | 0.14.1     |
+    ## +---------+-----------------------+------------+
+    ## | 697     | RANN                  | 2.6.1      |
+    ## +---------+-----------------------+------------+
+    ## | 698     | rappdirs              | 0.3.3      |
+    ## +---------+-----------------------+------------+
+    ## | 699     | raster                | 3.6-20     |
+    ## +---------+-----------------------+------------+
+    ## | 700     | rasterVis             | 0.51.5     |
+    ## +---------+-----------------------+------------+
+    ## | 701     | RBGL                  | 1.74.0     |
+    ## +---------+-----------------------+------------+
+    ## | 702     | rbibutils             | 2.2.13     |
+    ## +---------+-----------------------+------------+
+    ## | 703     | rcmdcheck             | 1.4.0      |
+    ## +---------+-----------------------+------------+
+    ## | 704     | RColorBrewer          | 1.1-3      |
+    ## +---------+-----------------------+------------+
+    ## | 705     | Rcpp                  | 1.0.10     |
+    ## +---------+-----------------------+------------+
+    ## | 706     | RcppArmadillo         | 0.12.0.1.0 |
+    ## +---------+-----------------------+------------+
+    ## | 707     | RcppDist              | 0.1.1      |
+    ## +---------+-----------------------+------------+
+    ## | 708     | RcppEigen             | 0.3.3.9.3  |
+    ## +---------+-----------------------+------------+
+    ## | 709     | RcppGSL               | 0.3.13     |
+    ## +---------+-----------------------+------------+
+    ## | 710     | RcppParallel          | 5.1.7      |
+    ## +---------+-----------------------+------------+
+    ## | 711     | RcppProgress          | 0.4.2      |
+    ## +---------+-----------------------+------------+
+    ## | 712     | RcppTOML              | 0.2.2      |
+    ## +---------+-----------------------+------------+
+    ## | 713     | RcppZiggurat          | 0.1.6      |
+    ## +---------+-----------------------+------------+
+    ## | 714     | Rcsdp                 | 0.1.57.4   |
+    ## +---------+-----------------------+------------+
+    ## | 715     | RCurl                 | 1.98-1.12  |
+    ## +---------+-----------------------+------------+
+    ## | 716     | Rdpack                | 2.4        |
+    ## +---------+-----------------------+------------+
+    ## | 717     | rdrop2                | 0.8.2.1    |
+    ## +---------+-----------------------+------------+
+    ## | 718     | reactable             | 0.4.4      |
+    ## +---------+-----------------------+------------+
+    ## | 719     | reactR                | 0.4.4      |
+    ## +---------+-----------------------+------------+
+    ## | 720     | readbitmap            | 0.1.5      |
+    ## +---------+-----------------------+------------+
+    ## | 721     | readr                 | 2.1.4      |
+    ## +---------+-----------------------+------------+
+    ## | 722     | readxl                | 1.4.2      |
+    ## +---------+-----------------------+------------+
+    ## | 723     | recipes               | 1.0.5      |
+    ## +---------+-----------------------+------------+
+    ## | 724     | redland               | 1.0.17-16  |
+    ## +---------+-----------------------+------------+
+    ## | 725     | registry              | 0.5-1      |
+    ## +---------+-----------------------+------------+
+    ## | 726     | ReinforcementLearning | 1.0.5      |
+    ## +---------+-----------------------+------------+
+    ## | 727     | relaimpo              | 2.2-6      |
+    ## +---------+-----------------------+------------+
+    ## | 728     | relimp                | 1.0-5      |
+    ## +---------+-----------------------+------------+
+    ## | 729     | rematch               | 1.0.1      |
+    ## +---------+-----------------------+------------+
+    ## | 730     | rematch2              | 2.1.2      |
+    ## +---------+-----------------------+------------+
+    ## | 731     | remotes               | 2.4.2      |
+    ## +---------+-----------------------+------------+
+    ## | 732     | renv                  | 0.17.2     |
+    ## +---------+-----------------------+------------+
+    ## | 733     | repr                  | 1.1.6      |
+    ## +---------+-----------------------+------------+
+    ## | 734     | reprex                | 2.0.2      |
+    ## +---------+-----------------------+------------+
+    ## | 735     | reshape               | 0.8.9      |
+    ## +---------+-----------------------+------------+
+    ## | 736     | reshape2              | 1.4.4      |
+    ## +---------+-----------------------+------------+
+    ## | 737     | reticulate            | 1.28       |
+    ## +---------+-----------------------+------------+
+    ## | 738     | rex                   | 1.2.1      |
+    ## +---------+-----------------------+------------+
+    ## | 739     | Rfast                 | 2.0.7      |
+    ## +---------+-----------------------+------------+
+    ## | 740     | rgdal                 | 1.6-5      |
+    ## +---------+-----------------------+------------+
+    ## | 741     | rgeos                 | 0.6-2      |
+    ## +---------+-----------------------+------------+
+    ## | 742     | rgl                   | 1.1.3      |
+    ## +---------+-----------------------+------------+
+    ## | 743     | Rglpk                 | 0.6-4      |
+    ## +---------+-----------------------+------------+
+    ## | 744     | Rgraphviz             | 2.42.0     |
+    ## +---------+-----------------------+------------+
+    ## | 745     | RhpcBLASctl           | 0.23-42    |
+    ## +---------+-----------------------+------------+
+    ## | 746     | rhub                  | 1.1.2      |
+    ## +---------+-----------------------+------------+
+    ## | 747     | rintrojs              | 0.3.2      |
+    ## +---------+-----------------------+------------+
+    ## | 748     | rio                   | 0.5.29     |
+    ## +---------+-----------------------+------------+
+    ## | 749     | rjags                 | 4-13       |
+    ## +---------+-----------------------+------------+
+    ## | 750     | rJava                 | 1.0-6      |
+    ## +---------+-----------------------+------------+
+    ## | 751     | rjson                 | 0.2.21     |
+    ## +---------+-----------------------+------------+
+    ## | 752     | RJSONIO               | 1.3-1.8    |
+    ## +---------+-----------------------+------------+
+    ## | 753     | rlang                 | 1.1.0      |
+    ## +---------+-----------------------+------------+
+    ## | 754     | rlecuyer              | 0.3-7      |
+    ## +---------+-----------------------+------------+
+    ## | 755     | rlist                 | 0.4.6.2    |
+    ## +---------+-----------------------+------------+
+    ## | 756     | RLRsim                | 3.1-8      |
+    ## +---------+-----------------------+------------+
+    ## | 757     | RMariaDB              | 1.2.2      |
+    ## +---------+-----------------------+------------+
+    ## | 758     | rmarkdown             | 2.21       |
+    ## +---------+-----------------------+------------+
+    ## | 759     | rmcorr                | 0.5.4      |
+    ## +---------+-----------------------+------------+
+    ## | 760     | rmdfiltr              | 0.1.3      |
+    ## +---------+-----------------------+------------+
+    ## | 761     | rmdshower             | 2.1.1      |
+    ## +---------+-----------------------+------------+
+    ## | 762     | Rmpfr                 | 0.9-1      |
+    ## +---------+-----------------------+------------+
+    ## | 763     | Rmpi                  | 0.7-1      |
+    ## +---------+-----------------------+------------+
+    ## | 764     | rms                   | 6.5-0      |
+    ## +---------+-----------------------+------------+
+    ## | 765     | rngtools              | 1.5.2      |
+    ## +---------+-----------------------+------------+
+    ## | 766     | rngWELL               | 0.10-9     |
+    ## +---------+-----------------------+------------+
+    ## | 767     | robustbase            | 0.95-1     |
+    ## +---------+-----------------------+------------+
+    ## | 768     | robustlmm             | 3.2-0      |
+    ## +---------+-----------------------+------------+
+    ## | 769     | robvis                | 0.3.0      |
+    ## +---------+-----------------------+------------+
+    ## | 770     | rockchalk             | 1.8.157    |
+    ## +---------+-----------------------+------------+
+    ## | 771     | ROCR                  | 1.0-11     |
+    ## +---------+-----------------------+------------+
+    ## | 772     | ROI                   | 1.0-0      |
+    ## +---------+-----------------------+------------+
+    ## | 773     | rootSolve             | 1.8.2.3    |
+    ## +---------+-----------------------+------------+
+    ## | 774     | roptim                | 0.1.6      |
+    ## +---------+-----------------------+------------+
+    ## | 775     | ROSE                  | 0.0-4      |
+    ## +---------+-----------------------+------------+
+    ## | 776     | roxygen2              | 7.2.3      |
+    ## +---------+-----------------------+------------+
+    ## | 777     | roxygen2md            | 1.0.0      |
+    ## +---------+-----------------------+------------+
+    ## | 778     | rpf                   | 1.0.11     |
+    ## +---------+-----------------------+------------+
+    ## | 779     | RPostgres             | 1.4.5      |
+    ## +---------+-----------------------+------------+
+    ## | 780     | rprojroot             | 2.0.3      |
+    ## +---------+-----------------------+------------+
+    ## | 781     | rr2                   | 1.1.0      |
+    ## +---------+-----------------------+------------+
+    ## | 782     | rsconnect             | 0.8.29     |
+    ## +---------+-----------------------+------------+
+    ## | 783     | rsm                   | 2.10.3     |
+    ## +---------+-----------------------+------------+
+    ## | 784     | Rsolnp                | 1.16       |
+    ## +---------+-----------------------+------------+
+    ## | 785     | RSpectra              | 0.16-1     |
+    ## +---------+-----------------------+------------+
+    ## | 786     | RSQLite               | 2.3.0      |
+    ## +---------+-----------------------+------------+
+    ## | 787     | rstan                 | 2.21.8     |
+    ## +---------+-----------------------+------------+
+    ## | 788     | rstanarm              | 2.21.3     |
+    ## +---------+-----------------------+------------+
+    ## | 789     | rstantools            | 2.3.1      |
+    ## +---------+-----------------------+------------+
+    ## | 790     | rstatix               | 0.7.2      |
+    ## +---------+-----------------------+------------+
+    ## | 791     | rstudioapi            | 0.14       |
+    ## +---------+-----------------------+------------+
+    ## | 792     | rsvd                  | 1.0.5      |
+    ## +---------+-----------------------+------------+
+    ## | 793     | rsvg                  | 2.4.0      |
+    ## +---------+-----------------------+------------+
+    ## | 794     | rtdists               | 0.11-5     |
+    ## +---------+-----------------------+------------+
+    ## | 795     | rticles               | 0.24       |
+    ## +---------+-----------------------+------------+
+    ## | 796     | Rttf2pt1              | 1.3.12     |
+    ## +---------+-----------------------+------------+
+    ## | 797     | RUnit                 | 0.4.32     |
+    ## +---------+-----------------------+------------+
+    ## | 798     | runjags               | 2.2.1-7    |
+    ## +---------+-----------------------+------------+
+    ## | 799     | rversions             | 2.1.2      |
+    ## +---------+-----------------------+------------+
+    ## | 800     | rvest                 | 1.0.3      |
+    ## +---------+-----------------------+------------+
+    ## | 801     | RWiener               | 1.3-3      |
+    ## +---------+-----------------------+------------+
+    ## | 802     | s2                    | 1.1.2      |
+    ## +---------+-----------------------+------------+
+    ## | 803     | sandwich              | 3.0-2      |
+    ## +---------+-----------------------+------------+
+    ## | 804     | sass                  | 0.4.5      |
+    ## +---------+-----------------------+------------+
+    ## | 805     | scagnostics           | 0.2-6      |
+    ## +---------+-----------------------+------------+
+    ## | 806     | scales                | 1.2.1      |
+    ## +---------+-----------------------+------------+
+    ## | 807     | scatterplot3d         | 0.3-43     |
+    ## +---------+-----------------------+------------+
+    ## | 808     | scoringRules          | 1.0.2      |
+    ## +---------+-----------------------+------------+
+    ## | 809     | scs                   | 3.0-1      |
+    ## +---------+-----------------------+------------+
+    ## | 810     | see                   | 0.7.5      |
+    ## +---------+-----------------------+------------+
+    ## | 811     | selectr               | 0.4-2      |
+    ## +---------+-----------------------+------------+
+    ## | 812     | sem                   | 3.1-15     |
+    ## +---------+-----------------------+------------+
+    ## | 813     | semEff                | 0.6.1      |
+    ## +---------+-----------------------+------------+
+    ## | 814     | semPlot               | 1.1.6      |
+    ## +---------+-----------------------+------------+
+    ## | 815     | semTools              | 0.5-6      |
+    ## +---------+-----------------------+------------+
+    ## | 816     | servr                 | 0.26       |
+    ## +---------+-----------------------+------------+
+    ## | 817     | sessioninfo           | 1.2.2      |
+    ## +---------+-----------------------+------------+
+    ## | 818     | sets                  | 1.0-24     |
+    ## +---------+-----------------------+------------+
+    ## | 819     | sf                    | 1.0-12     |
+    ## +---------+-----------------------+------------+
+    ## | 820     | sfsmisc               | 1.1-14     |
+    ## +---------+-----------------------+------------+
+    ## | 821     | shape                 | 1.4.6      |
+    ## +---------+-----------------------+------------+
+    ## | 822     | shiny                 | 1.7.4      |
+    ## +---------+-----------------------+------------+
+    ## | 823     | shinydisconnect       | 0.1.0      |
+    ## +---------+-----------------------+------------+
+    ## | 824     | shinyjs               | 2.1.0      |
+    ## +---------+-----------------------+------------+
+    ## | 825     | shinystan             | 2.6.0      |
+    ## +---------+-----------------------+------------+
+    ## | 826     | shinytest2            | 0.2.1      |
+    ## +---------+-----------------------+------------+
+    ## | 827     | shinythemes           | 1.2.0      |
+    ## +---------+-----------------------+------------+
+    ## | 828     | shinyWidgets          | 0.7.6      |
+    ## +---------+-----------------------+------------+
+    ## | 829     | showtext              | 0.9-5      |
+    ## +---------+-----------------------+------------+
+    ## | 830     | showtextdb            | 3.0        |
+    ## +---------+-----------------------+------------+
+    ## | 831     | sigr                  | 1.1.4      |
+    ## +---------+-----------------------+------------+
+    ## | 832     | simex                 | 1.8        |
+    ## +---------+-----------------------+------------+
+    ## | 833     | skimr                 | 2.1.5      |
+    ## +---------+-----------------------+------------+
+    ## | 834     | skpr                  | 1.1.6      |
+    ## +---------+-----------------------+------------+
+    ## | 835     | slam                  | 0.1-50     |
+    ## +---------+-----------------------+------------+
+    ## | 836     | sm                    | 2.2-5.7.1  |
+    ## +---------+-----------------------+------------+
+    ## | 837     | smacof                | 2.1-5      |
+    ## +---------+-----------------------+------------+
+    ## | 838     | smd                   | 0.6.6      |
+    ## +---------+-----------------------+------------+
+    ## | 839     | sna                   | 2.7-1      |
+    ## +---------+-----------------------+------------+
+    ## | 840     | snow                  | 0.4-4      |
+    ## +---------+-----------------------+------------+
+    ## | 841     | snowfall              | 1.84-6.2   |
+    ## +---------+-----------------------+------------+
+    ## | 842     | sodium                | 1.2.1      |
+    ## +---------+-----------------------+------------+
+    ## | 843     | som                   | 0.3-5.1    |
+    ## +---------+-----------------------+------------+
+    ## | 844     | sourcetools           | 0.1.7-1    |
+    ## +---------+-----------------------+------------+
+    ## | 845     | sp                    | 1.6-0      |
+    ## +---------+-----------------------+------------+
+    ## | 846     | spam                  | 2.9-1      |
+    ## +---------+-----------------------+------------+
+    ## | 847     | sparkline             | 2.0        |
+    ## +---------+-----------------------+------------+
+    ## | 848     | SparseGrid            | 0.8.2      |
+    ## +---------+-----------------------+------------+
+    ## | 849     | SparseM               | 1.81       |
+    ## +---------+-----------------------+------------+
+    ## | 850     | sparsepca             | 0.1.2      |
+    ## +---------+-----------------------+------------+
+    ## | 851     | sparsesvd             | 0.2-2      |
+    ## +---------+-----------------------+------------+
+    ## | 852     | spatstat.data         | 3.0-1      |
+    ## +---------+-----------------------+------------+
+    ## | 853     | spatstat.geom         | 3.1-0      |
+    ## +---------+-----------------------+------------+
+    ## | 854     | spatstat.utils        | 3.0-2      |
+    ## +---------+-----------------------+------------+
+    ## | 855     | spData                | 2.2.2      |
+    ## +---------+-----------------------+------------+
+    ## | 856     | spdep                 | 1.2-8      |
+    ## +---------+-----------------------+------------+
+    ## | 857     | speedglm              | 0.3-4      |
+    ## +---------+-----------------------+------------+
+    ## | 858     | spelling              | 2.2.1      |
+    ## +---------+-----------------------+------------+
+    ## | 859     | splancs               | 2.01-43    |
+    ## +---------+-----------------------+------------+
+    ## | 860     | splines2              | 0.4.8      |
+    ## +---------+-----------------------+------------+
+    ## | 861     | spls                  | 2.2-3      |
+    ## +---------+-----------------------+------------+
+    ## | 862     | SQUAREM               | 2021.1     |
+    ## +---------+-----------------------+------------+
+    ## | 863     | StanHeaders           | 2.21.0-7   |
+    ## +---------+-----------------------+------------+
+    ## | 864     | stargazer             | 5.2.3      |
+    ## +---------+-----------------------+------------+
+    ## | 865     | statmod               | 1.5.0      |
+    ## +---------+-----------------------+------------+
+    ## | 866     | statnet.common        | 4.8.0      |
+    ## +---------+-----------------------+------------+
+    ## | 867     | stinepack             | 1.4        |
+    ## +---------+-----------------------+------------+
+    ## | 868     | stringi               | 1.7.12     |
+    ## +---------+-----------------------+------------+
+    ## | 869     | stringr               | 1.5.0      |
+    ## +---------+-----------------------+------------+
+    ## | 870     | strucchange           | 1.5-3      |
+    ## +---------+-----------------------+------------+
+    ## | 871     | styler                | 1.9.1      |
+    ## +---------+-----------------------+------------+
+    ## | 872     | subselect             | 0.15.4     |
+    ## +---------+-----------------------+------------+
+    ## | 873     | superpc               | 1.12       |
+    ## +---------+-----------------------+------------+
+    ## | 874     | SuppDists             | 1.1-9.7    |
+    ## +---------+-----------------------+------------+
+    ## | 875     | support.CEs           | 0.5-0      |
+    ## +---------+-----------------------+------------+
+    ## | 876     | survey                | 4.1-1      |
+    ## +---------+-----------------------+------------+
+    ## | 877     | svDialogs             | 1.1.0      |
+    ## +---------+-----------------------+------------+
+    ## | 878     | svglite               | 2.1.1      |
+    ## +---------+-----------------------+------------+
+    ## | 879     | svgPanZoom            | 0.3.4      |
+    ## +---------+-----------------------+------------+
+    ## | 880     | svGUI                 | 1.0.1      |
+    ## +---------+-----------------------+------------+
+    ## | 881     | svUnit                | 1.0.6      |
+    ## +---------+-----------------------+------------+
+    ## | 882     | sylly                 | 0.1-6      |
+    ## +---------+-----------------------+------------+
+    ## | 883     | sylly.en              | 0.1-3      |
+    ## +---------+-----------------------+------------+
+    ## | 884     | sys                   | 3.4.1      |
+    ## +---------+-----------------------+------------+
+    ## | 885     | sysfonts              | 0.8.8      |
+    ## +---------+-----------------------+------------+
+    ## | 886     | systemfonts           | 1.0.4      |
+    ## +---------+-----------------------+------------+
+    ## | 887     | tables                | 0.9.10     |
+    ## +---------+-----------------------+------------+
+    ## | 888     | TeachingDemos         | 2.12       |
+    ## +---------+-----------------------+------------+
+    ## | 889     | tensorA               | 0.36.2     |
+    ## +---------+-----------------------+------------+
+    ## | 890     | terra                 | 1.7-18     |
+    ## +---------+-----------------------+------------+
+    ## | 891     | tesseract             | 5.1.0      |
+    ## +---------+-----------------------+------------+
+    ## | 892     | testit                | 0.13       |
+    ## +---------+-----------------------+------------+
+    ## | 893     | testthat              | 3.1.7      |
+    ## +---------+-----------------------+------------+
+    ## | 894     | texPreview            | 2.0.0      |
+    ## +---------+-----------------------+------------+
+    ## | 895     | texreg                | 1.38.6     |
+    ## +---------+-----------------------+------------+
+    ## | 896     | textshaping           | 0.3.6      |
+    ## +---------+-----------------------+------------+
+    ## | 897     | TH.data               | 1.1-1      |
+    ## +---------+-----------------------+------------+
+    ## | 898     | themis                | 1.0.0      |
+    ## +---------+-----------------------+------------+
+    ## | 899     | threejs               | 0.3.3      |
+    ## +---------+-----------------------+------------+
+    ## | 900     | tibble                | 3.2.1      |
+    ## +---------+-----------------------+------------+
+    ## | 901     | tictoc                | 1.1        |
+    ## +---------+-----------------------+------------+
+    ## | 902     | tidybayes             | 3.0.4      |
+    ## +---------+-----------------------+------------+
+    ## | 903     | tidycmprsk            | 0.2.0      |
+    ## +---------+-----------------------+------------+
+    ## | 904     | tidygraph             | 1.2.3      |
+    ## +---------+-----------------------+------------+
+    ## | 905     | tidyr                 | 1.3.0      |
+    ## +---------+-----------------------+------------+
+    ## | 906     | tidyselect            | 1.2.0      |
+    ## +---------+-----------------------+------------+
+    ## | 907     | tidyverse             | 2.0.0      |
+    ## +---------+-----------------------+------------+
+    ## | 908     | tiff                  | 0.1-11     |
+    ## +---------+-----------------------+------------+
+    ## | 909     | timechange            | 0.2.0      |
+    ## +---------+-----------------------+------------+
+    ## | 910     | timeDate              | 4022.108   |
+    ## +---------+-----------------------+------------+
+    ## | 911     | tinylabels            | 0.2.3      |
+    ## +---------+-----------------------+------------+
+    ## | 912     | tinytest              | 1.4.1      |
+    ## +---------+-----------------------+------------+
+    ## | 913     | tinytex               | 0.44       |
+    ## +---------+-----------------------+------------+
+    ## | 914     | TMB                   | 1.9.3      |
+    ## +---------+-----------------------+------------+
+    ## | 915     | tmvnsim               | 1.0-2      |
+    ## +---------+-----------------------+------------+
+    ## | 916     | transformr            | 0.1.4      |
+    ## +---------+-----------------------+------------+
+    ## | 917     | triebeard             | 0.4.1      |
+    ## +---------+-----------------------+------------+
+    ## | 918     | truncdist             | 1.0-2      |
+    ## +---------+-----------------------+------------+
+    ## | 919     | truncnorm             | 1.0-9      |
+    ## +---------+-----------------------+------------+
+    ## | 920     | truncreg              | 0.2-5      |
+    ## +---------+-----------------------+------------+
+    ## | 921     | tseries               | 0.10-53    |
+    ## +---------+-----------------------+------------+
+    ## | 922     | TTR                   | 0.24.3     |
+    ## +---------+-----------------------+------------+
+    ## | 923     | tufte                 | 0.12       |
+    ## +---------+-----------------------+------------+
+    ## | 924     | tweedie               | 2.3.5      |
+    ## +---------+-----------------------+------------+
+    ## | 925     | tweenr                | 2.0.2      |
+    ## +---------+-----------------------+------------+
+    ## | 926     | twosamples            | 2.0.0      |
+    ## +---------+-----------------------+------------+
+    ## | 927     | tzdb                  | 0.3.0      |
+    ## +---------+-----------------------+------------+
+    ## | 928     | ucminf                | 1.1-4.1    |
+    ## +---------+-----------------------+------------+
+    ## | 929     | units                 | 0.8-1      |
+    ## +---------+-----------------------+------------+
+    ## | 930     | unmarked              | 1.2.5      |
+    ## +---------+-----------------------+------------+
+    ## | 931     | urca                  | 1.3-3      |
+    ## +---------+-----------------------+------------+
+    ## | 932     | urlchecker            | 1.0.1      |
+    ## +---------+-----------------------+------------+
+    ## | 933     | urltools              | 1.7.3      |
+    ## +---------+-----------------------+------------+
+    ## | 934     | usethis               | 2.1.6      |
+    ## +---------+-----------------------+------------+
+    ## | 935     | utf8                  | 1.2.3      |
+    ## +---------+-----------------------+------------+
+    ## | 936     | uuid                  | 1.1-0      |
+    ## +---------+-----------------------+------------+
+    ## | 937     | V8                    | 4.2.2      |
+    ## +---------+-----------------------+------------+
+    ## | 938     | VCA                   | 1.4.5      |
+    ## +---------+-----------------------+------------+
+    ## | 939     | vcd                   | 1.4-11     |
+    ## +---------+-----------------------+------------+
+    ## | 940     | vcr                   | 1.2.0      |
+    ## +---------+-----------------------+------------+
+    ## | 941     | vctrs                 | 0.6.1      |
+    ## +---------+-----------------------+------------+
+    ## | 942     | vdiffr                | 1.0.5      |
+    ## +---------+-----------------------+------------+
+    ## | 943     | VGAM                  | 1.1-8      |
+    ## +---------+-----------------------+------------+
+    ## | 944     | VIM                   | 6.2.2      |
+    ## +---------+-----------------------+------------+
+    ## | 945     | vioplot               | 0.4.0      |
+    ## +---------+-----------------------+------------+
+    ## | 946     | viridis               | 0.6.2      |
+    ## +---------+-----------------------+------------+
+    ## | 947     | viridisLite           | 0.4.1      |
+    ## +---------+-----------------------+------------+
+    ## | 948     | visNetwork            | 2.1.2      |
+    ## +---------+-----------------------+------------+
+    ## | 949     | vroom                 | 1.6.1      |
+    ## +---------+-----------------------+------------+
+    ## | 950     | waiter                | 0.2.5      |
+    ## +---------+-----------------------+------------+
+    ## | 951     | waldo                 | 0.4.0      |
+    ## +---------+-----------------------+------------+
+    ## | 952     | wdm                   | 0.2.3      |
+    ## +---------+-----------------------+------------+
+    ## | 953     | webfakes              | 1.1.7      |
+    ## +---------+-----------------------+------------+
+    ## | 954     | webmockr              | 0.9.0      |
+    ## +---------+-----------------------+------------+
+    ## | 955     | webp                  | 1.1.0      |
+    ## +---------+-----------------------+------------+
+    ## | 956     | webshot               | 0.5.4      |
+    ## +---------+-----------------------+------------+
+    ## | 957     | websocket             | 1.4.1      |
+    ## +---------+-----------------------+------------+
+    ## | 958     | weights               | 1.0.4      |
+    ## +---------+-----------------------+------------+
+    ## | 959     | whisker               | 0.4.1      |
+    ## +---------+-----------------------+------------+
+    ## | 960     | whoami                | 1.3.0      |
+    ## +---------+-----------------------+------------+
+    ## | 961     | withr                 | 2.5.0      |
+    ## +---------+-----------------------+------------+
+    ## | 962     | wk                    | 0.7.2      |
+    ## +---------+-----------------------+------------+
+    ## | 963     | worcs                 | 0.1.11.3   |
+    ## +---------+-----------------------+------------+
+    ## | 964     | wordcloud             | 2.6        |
+    ## +---------+-----------------------+------------+
+    ## | 965     | wordcountaddin        | 0.3.0.9000 |
+    ## +---------+-----------------------+------------+
+    ## | 966     | workflows             | 1.1.3      |
+    ## +---------+-----------------------+------------+
+    ## | 967     | wrapr                 | 2.0.9      |
+    ## +---------+-----------------------+------------+
+    ## | 968     | writexl               | 1.4.2      |
+    ## +---------+-----------------------+------------+
+    ## | 969     | WRS2                  | 1.1-4      |
+    ## +---------+-----------------------+------------+
+    ## | 970     | xaringan              | 0.28.1     |
+    ## +---------+-----------------------+------------+
+    ## | 971     | xaringanthemer        | 0.4.2      |
+    ## +---------+-----------------------+------------+
+    ## | 972     | xfun                  | 0.38       |
+    ## +---------+-----------------------+------------+
+    ## | 973     | XML                   | 3.99-0.14  |
+    ## +---------+-----------------------+------------+
+    ## | 974     | xml2                  | 1.3.3      |
+    ## +---------+-----------------------+------------+
+    ## | 975     | xmlparsedata          | 1.0.5      |
+    ## +---------+-----------------------+------------+
+    ## | 976     | xopen                 | 1.0.0      |
+    ## +---------+-----------------------+------------+
+    ## | 977     | xtable                | 1.8-4      |
+    ## +---------+-----------------------+------------+
+    ## | 978     | xts                   | 0.13.0     |
+    ## +---------+-----------------------+------------+
+    ## | 979     | yaml                  | 2.3.7      |
+    ## +---------+-----------------------+------------+
+    ## | 980     | zip                   | 2.2.2      |
+    ## +---------+-----------------------+------------+
+    ## | 981     | zoo                   | 1.8-11     |
+    ## +---------+-----------------------+------------+

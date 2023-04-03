@@ -1,0 +1,17 @@
+---
+title: "List of installed packages"
+output: md_document
+date: "2023-04-03"
+---
+
+## List of installed packages
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(jtools)
+list_packages <- as.data.frame(installed.packages()[ , c(1, 3:4)]) 
+list_packages <- list_packages[is.na(list_packages$Priority), 1:2, drop = FALSE]
+rownames(list_packages) <- NULL
+md_table(list_packages)
+```
+
+

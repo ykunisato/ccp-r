@@ -2,7 +2,7 @@
 
 This is a repository of Dockerfile including packages and add-ins that are useful for writing articles with R Markdown in Rstudio. This Dockerfile is based on rocker/verse. Installing rstan conducted by the method described in antoine-sachet / rocker-ML.
 
-[日本語解説(Japanese)](https://github.com/ykunisato/paper-r/blob/master/README_jp.md)
+[日本語解説(Japanese)](https://github.com/ykunisato/ccp-r/blob/master/README_jp.md)
 
 Maintainer is Yoshihiko Kunisato (ykunisato@psy.senshu-u.ac.jp)
 
@@ -41,4 +41,21 @@ docker run -e PASSWORD=password -p 8787:8787 -v "%cd%":/home/rstudio -d --name c
 
 5. You will see the Rstudio on the web browser. Type rstudio in ID column and password that you set in password column.
 
-## [List of R packages](https://github.com/ykunisato/paper-r/blob/master/list_packages.md)
+6. If you need to install cmdstan and Juliapackage, please execute the following.
+
+- Install cmdstan
+
+```
+cmdstanr::install_cmdstan(cores = 2)
+```
+
+- Install Julia packages
+
+Type "julia" in Terminal of the Rstudio and then type the following code.
+
+```
+using Pkg;Pkg.add(["DataFrames","CSV","Distributions","Statistics","JuliaFormatter","CPUTime","Gadfly","GLM","Optim","Plots","RDatasets","StatsBase","StatsFuns","StatsPlots","AdvancedHMC","Turing","Roots","ForneyLab","Suppressor", "LogExpFunctions", "Colors", "StatsModelComparisons","RxInfer","BenchmarkTools"]);Pkg.precompile()
+```
+
+
+## [List of R packages](https://github.com/ykunisato/ccp-r/list_packages.md)
