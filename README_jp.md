@@ -49,4 +49,4 @@ cmdstanr::install_cmdstan(cores = 2)
 using Pkg;Pkg.add(["DataFrames","CSV","Distributions","Statistics","JuliaFormatter","CPUTime","Gadfly","GLM","Optim","Plots","RDatasets","StatsBase","StatsFuns","StatsPlots","AdvancedHMC","Turing","Roots","ForneyLab","Suppressor", "LogExpFunctions", "Colors", "StatsModelComparisons","RxInfer","BenchmarkTools"]);Pkg.precompile()
 ```
 
-## [インストールされているRパッケージのリスト](https://github.com/ykunisato/ccp-r/list_packages.md)
+** [インストールされているRパッケージのリスト](https://github.com/ykunisato/ccp-r/list_packages.md) **

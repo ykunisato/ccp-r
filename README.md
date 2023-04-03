@@ -58,4 +58,4 @@ using Pkg;Pkg.add(["DataFrames","CSV","Distributions","Statistics","JuliaFormatt
 ```
 
 
-## [List of R packages](https://github.com/ykunisato/ccp-r/list_packages.md)
+**[List of R packages](https://github.com/ykunisato/ccp-r/list_packages.md)**
