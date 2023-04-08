@@ -156,7 +156,7 @@ install.packages(c("memisc",
 "flextable",
 "LDATS",
 "tidytext",
-"textmineR"
+"textmineR",
 "text2vec"
 ), error = TRUE, dependencies = TRUE)
 # install RMeCab
