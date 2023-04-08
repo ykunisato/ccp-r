@@ -58,14 +58,11 @@ RUN apt-get install -y python3-pip
 RUN pip3 install notebook \
     jupyterlab \
     jupyterlab-git \
-    jupyter_contrib_nbextensions \
-    lckr-jupyterlab-variableinspector \
     scipy \
     seaborn \
     scikit-learn \
     sympy \
     mne \
-    axelrod \
     deap \
     japanize-matplotlib \
     mecab-python3 \
