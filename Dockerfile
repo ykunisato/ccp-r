@@ -62,17 +62,8 @@ RUN pip3 install notebook \
     seaborn \
     scikit-learn \
     sympy \
-    mne \
-    deap \
-    japanize-matplotlib \
     mecab-python3 \
     unidic-lite \
-    networkx \
-    PuLP \
-    pymc3 \
-    simpy \
-    psychrnn \
-    pyddm \
     inferactively-pymdp\
     bokeh \
     sudachipy
