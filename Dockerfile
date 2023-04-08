@@ -40,6 +40,15 @@ RUN apt-get update && apt-get install -y \
 RUN apt-get update
 RUN apt-get install -y sqlite3
 
+# install Mecab and Dictionary
+RUN wget -O mecab-0.996.tar.gz "https://drive.google.com/uc?export=download&id=0B4y35FiV1wh7cENtOXlicTFaRUE" ;\
+    tar -xzf mecab-0.996.tar.gz ;\
+    cd mecab-0.996; ./configure --enable-utf8-only; make; make install; ldconfig
+
+RUN wget -O mecab-ipadic-2.7.0-20070801.tar.gz "https://drive.google.com/uc?export=download&id=0B4y35FiV1wh7MWVlSDBCSXZMTXM" ;\
+    tar -xzf mecab-ipadic-2.7.0-20070801.tar.gz ;\
+    cd mecab-ipadic-2.7.0-20070801; ./configure –with-charset=utf-8; make; make install; ldconfig
+
 # install R packages
 COPY install_r.r install_r.r
 RUN ["r", "install_r.r"]

@@ -144,8 +144,23 @@ install.packages(c("memisc",
 "renv",
 "papaja",
 "ggdmc",
-"GGMnonreg"
+"GGMnonreg",
+"DT",
+"tm",
+"topicmodels",
+"wordcloud",
+"pals",
+"SnowballC",
+"lda",
+"ldatuning",
+"flextable",
+"LDATS",
+"tidytext",
+"textmineR"
+"text2vec"
 ), error = TRUE, dependencies = TRUE)
+# install RMeCab
+install.packages("RMeCab", repos = "https://rmecab.jp/R", type = "source")
 
 # install R packages from GitHub
 remotes::install_github(c("MathiasHarrer/dmetar",
