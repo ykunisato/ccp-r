@@ -167,4 +167,4 @@ remotes::install_github(c("MathiasHarrer/dmetar",
 "yihui/xaringan",
 "ykunisato/jpaRmd",
 "ykunisato/psyinfr",
-"benmarwick/wordcountaddin",), dependencies = TRUE)
+"benmarwick/wordcountaddin"), dependencies = TRUE)
