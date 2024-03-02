@@ -1,32 +1,21 @@
-# install rstan
-install.packages("rstan", type = "source")
-
-dotR <- file.path(Sys.getenv("HOME"), ".R")
-if (!file.exists(dotR)) dir.create(dotR)
-M <- file.path(dotR, ifelse(.Platform$OS.type == "windows", "Makevars.win", "Makevars"))
-if (!file.exists(M)) file.create(M)
-cat("\nCXX14FLAGS=-O3 -march=native -mtune=native",
-    if( grepl("^darwin", R.version$os)) "CXX14FLAGS += -arch x86_64 -ftemplate-depth-256" else
-    if (.Platform$OS.type == "windows") "CXX11FLAGS=-O3 -march=corei7 -mtune=corei7" else
-    "CXX14FLAGS += -fPIC",
-    file = M, sep = "\n", append = TRUE)
-
-# install CMDSTAN_HOME
-remotes::install_github("stan-dev/posterior")
-install.packages("cmdstanr", repos = c("https://mc-stan.org/r-packages/", getOption("repos")))
-install.packages(c("devtools",
-"remotes",
-"BiocManager"
-), error = TRUE, dependencies = TRUE)
-
-BiocManager::install(c("graph", "RBGL", "Rgraphviz"), update = TRUE, ask = FALSE)
-
 # install R packages from CRAN
 install.packages(c("memisc",
+"tidyverse",
+"rmarkdown",
+"BiocManager",
+"devtools",
+"BiocManager",
+"vroom",
+"gert",
+"tinytex",
+"blogdown",
+"bookdown",
+"distill",
+"rticles",
+"rmdshower",
+"rJava",
+"xaringan",
 "imager",
-"bayesplot",
-"brms",
-#"coda",
 "caret",
 "car",
 "e1071",
@@ -64,6 +53,7 @@ install.packages(c("memisc",
 "VIM",
 "mice",
 "irr",
+"brms",
 "DiagrammeR",
 "magick",
 "roxygen2md",
@@ -157,14 +147,20 @@ install.packages(c("memisc",
 "LDATS",
 "tidytext",
 "textmineR",
-"text2vec"
-), error = TRUE, dependencies = TRUE)
+"text2vec",
+"bayesplot"), error = TRUE, dependencies = TRUE)
+
+BiocManager::install(c("graph", "RBGL", "Rgraphviz"), update = TRUE, ask = FALSE)
+
+# install CMDSTAN_HOME
+remotes::install_github("stan-dev/posterior")
+install.packages("cmdstanr", repos = c("https://mc-stan.org/r-packages/", getOption("repos")))
+
+
 # install RMeCab
 install.packages("RMeCab", repos = "https://rmecab.jp/R", type = "source")
 
 # install R packages from GitHub
 remotes::install_github(c("MathiasHarrer/dmetar",
-"yihui/xaringan",
 "ykunisato/jpaRmd",
-"ykunisato/psyinfr",
-"benmarwick/wordcountaddin"), dependencies = TRUE)
+"ykunisato/psyinfr"), dependencies = TRUE)
