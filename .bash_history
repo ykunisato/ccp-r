@@ -1,3 +1,0 @@
-julia
-python
-python3
