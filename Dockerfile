@@ -27,6 +27,10 @@ RUN apt-get update && apt-get install -y \
     libsecret-1-dev \
     libsodium-dev \
     libssl-dev \
+    libgit2-dev \
+    libharfbuzz-dev \
+    libfribidi-dev \
+    cmake \
 && apt-get clean \
 && rm -rf /var/lib/apt/lists/*
 

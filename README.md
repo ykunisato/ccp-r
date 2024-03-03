@@ -26,14 +26,14 @@ docker run -e PASSWORD=password -p 8787:8787 -v $(pwd):/home/rstudio -d --name c
 or
 
 ```
-docker run -e PASSWORD=password -e DISABLE_AUTH=true -p 8787:8787 -v $(pwd):/home/rstudio -d --name cppr ghcr.io/ykunisato/ccp-r:latest
+docker run -e PASSWORD=password -e DISABLE_AUTH=true -p 8787:8787 -v $(pwd):/home/rstudio -d --name ccpr ghcr.io/ykunisato/ccp-r:latest
 ```
 
 **Windows**
 
 
 ```
-docker run -e PASSWORD=password -p 8787:8787 -v "%cd%":/home/rstudio -d --name cppr ghcr.io/ykunisato/ccp-r:latest
+docker run -e PASSWORD=password -p 8787:8787 -v "%cd%":/home/rstudio -d --name ccpr ghcr.io/ykunisato/ccp-r:latest
 ```
 
 
