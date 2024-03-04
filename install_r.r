@@ -147,9 +147,6 @@ install.packages("cmdstanr", repos = c("https://mc-stan.org/r-packages/", getOpt
 # install RMeCab
 install.packages("RMeCab", repos = "https://rmecab.jp/R", type = "source")
 
-# install tinytex
-tinytex::install_tinytex()
-
 # install R packages from GitHub
 remotes::install_github(c("MathiasHarrer/dmetar",
 "ykunisato/jpaRmd",

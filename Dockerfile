@@ -31,6 +31,12 @@ RUN apt-get update && apt-get install -y \
     libharfbuzz-dev \
     libfribidi-dev \
     cmake \
+    libcairo2-dev \
+    libharfbuzz-dev \
+    libglib2.0-dev \
+    libavcodec-dev \
+    libavformat-dev \
+    libavutil-dev \
 && apt-get clean \
 && rm -rf /var/lib/apt/lists/*
 
@@ -88,5 +94,6 @@ RUN JULIA_MAJOR=`echo $JULIA_VERSION | sed -E  "s/\.[0-9]+$//g"` && \
     #rm -r julia-$JULIA_VERSION-linux-x86_64.tar.gz
 
 RUN su rstudio
-RUN julia -e 'using Pkg;Pkg.update();Pkg.add(["IJulia","PyCall"]);Pkg.build(["IJulia","PyCall"]);'
-RUN chown -hR rstudio:staff /opt/julia-$JULIA_VERSION
+ENV JULIA_DEPOT_PATH=$HOME/.julia
+RUN julia -e 'using Pkg;Pkg.update();Pkg.add(["IJulia","PyCall"]);Pkg.build(["IJulia","PyCall"])'
+RUN julia -e 'using Pkg;Pkg.add(["DataFrames","Distributions","Plots","RDatasets","Turing","RxInfer"])'

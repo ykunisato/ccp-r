@@ -35,19 +35,15 @@ docker run -e PASSWORD=パスワード -p 8787:8787 -v "%cd%":/home/rstudio -d -
 
 5.ブラウザ上にRstudioが出てくるので，IDにrstudio，パスに上記で設定したパスワードをいれる。
 
-6.もしcmdstanを使う場合やJuliaパッケージを使う場合は，以下を実行します。
-
-- cmdstanを使う場合は，RStudioのConsoleで以下を実行する。
+6.もしTinyTeX，cmdstan，Juliaを使う場合は，RStudioのTerminalで以下を実行する。
 
 ```
-cmdstanr::install_cmdstan(cores = 2)
+export JULIA_DEPOT_PATH=$HOME/.julia
+julia -e 'using Pkg;Pkg.update();Pkg.add(["IJulia","PyCall"]);Pkg.build(["IJulia","PyCall"])'
+julia -e 'using Pkg;Pkg.add("Plots")'
 ```
 
-- Juliaのパッケージをインストールする場合は，RStudioのTerminalでjuliaと打ってから，以下のようにインストールする。
-
-```
-using Pkg;Pkg.add(["DataFrames","CSV","Distributions","Statistics","JuliaFormatter","CPUTime","Gadfly","GLM","Optim","Plots","RDatasets","StatsBase","StatsFuns","StatsPlots","AdvancedHMC","Turing","Roots","ForneyLab","Suppressor", "LogExpFunctions", "Colors", "StatsModelComparisons","RxInfer","BenchmarkTools"]);Pkg.precompile()
-```
+julia -e 'using Pkg;Pkg.add("Julia packages")'
 
 ## List of installed packages
 

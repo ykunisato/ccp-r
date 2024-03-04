@@ -41,21 +41,26 @@ docker run -e PASSWORD=password -p 8787:8787 -v "%cd%":/home/rstudio -d --name c
 
 5. You will see the Rstudio on the web browser. Type rstudio in ID column and password that you set in password column.
 
-6. If you need to install cmdstan and Juliapackage, please execute the following.
+6. If you use cmdstan, tinytex and Juliapackage, please execute the following code.
 
-- Install cmdstan
-
+R console of RStudio
 ```
 cmdstanr::install_cmdstan(cores = 2)
+tinytex::install_tinytex()
 ```
 
-- Install Julia packages
 
-Type "julia" in Terminal of the Rstudio and then type the following code.
+
+Terminal of the Rstudio.
 
 ```
-using Pkg;Pkg.add(["DataFrames","CSV","Distributions","Statistics","JuliaFormatter","CPUTime","Gadfly","GLM","Optim","Plots","RDatasets","StatsBase","StatsFuns","StatsPlots","AdvancedHMC","Turing","Roots","ForneyLab","Suppressor", "LogExpFunctions", "Colors", "StatsModelComparisons","RxInfer","BenchmarkTools"]);Pkg.precompile()
+r -e 'cmdstanr::install_cmdstan(cores = 2)'
+r -e 'tinytex::install_tinytex()'
+julia -e 'using Pkg;Pkg.update();Pkg.add(["IJulia","PyCall"]);Pkg.build(["IJulia","PyCall"])'
+julia -e 'using Pkg;Pkg.add(["DataFrames","Distributions","Plots","RDatasets","Turing","RxInfer"])'
 ```
+
+julia -e 'using Pkg;Pkg.add("Julia packages")'
 
 
 ## List of installed packages
