@@ -87,4 +87,6 @@ RUN JULIA_MAJOR=`echo $JULIA_VERSION | sed -E  "s/\.[0-9]+$//g"` && \
     # AMD
     #rm -r julia-$JULIA_VERSION-linux-x86_64.tar.gz
 
+RUN su rstudio
+RUN julia -e 'using Pkg;Pkg.update();Pkg.add(["IJulia","PyCall"]);Pkg.build(["IJulia","PyCall"]);'
 RUN chown -hR rstudio:staff /opt/julia-$JULIA_VERSION
