@@ -49,17 +49,21 @@ cmdstanr::install_cmdstan(cores = 2)
 tinytex::install_tinytex()
 ```
 
-
-
 Terminal of the Rstudio.
+
+Unfortunately, the Julia package cannot be installed by general users. It needs to be installed using the sudo command.
 
 ```
 export JULIA_DEPOT_PATH="/home/rstudio/.julia"
-julia -e 'using Pkg;Pkg.update();Pkg.add(["IJulia","PyCall"]);Pkg.build(["IJulia","PyCall"])'
-julia -e 'using Pkg;Pkg.add(["DataFrames","Distributions","RDatasets","Turing","RxInfer"])'
+sudo julia -e 'using Pkg;Pkg.update();Pkg.add(["IJulia","PyCall"]);Pkg.build(["IJulia","PyCall"])'
+sudo julia -e 'using Pkg;Pkg.add(["DataFrames","Distributions","RDatasets","Turing","RxInfer"])'
 ```
 
-julia -e 'using Pkg;Pkg.add("Julia packages")'
+When using Julia with Quarto, interactive code execution is not possible and must be executed with the following code.
+
+```
+sudo quarto render test.qmd
+```
 
 
 ## List of installed packages
