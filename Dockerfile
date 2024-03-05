@@ -38,6 +38,7 @@ RUN apt-get update && apt-get install -y \
     libavformat-dev \
     libavutil-dev \
     libsuitesparse-dev \
+    libgtk-3-dev \
 && apt-get clean \
 && rm -rf /var/lib/apt/lists/*
 
@@ -78,7 +79,6 @@ RUN pip3 install notebook \
     unidic-lite \
     mecab-python3
 
-RUN apt-get install -y curl libgtk-3-dev 
 # Install Julia
 ARG JULIA_VERSION="1.10.2"
 RUN JULIA_MAJOR=`echo $JULIA_VERSION | sed -E  "s/\.[0-9]+$//g"` && \
