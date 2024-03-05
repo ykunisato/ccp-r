@@ -49,6 +49,8 @@ cmdstanr::install_cmdstan(cores = 2)
 tinytex::install_tinytex()
 ```
 
+Once you have installed cmdstanr, please verify its operation based on the contents of [this website](https://mc-stan.org/cmdstanr/articles/cmdstanr.html).
+
 Terminal of the Rstudio.
 
 Unfortunately, the Julia package cannot be installed by general users. It needs to be installed using the sudo command.
