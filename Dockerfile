@@ -37,6 +37,7 @@ RUN apt-get update && apt-get install -y \
     libavcodec-dev \
     libavformat-dev \
     libavutil-dev \
+    libsuitesparse-dev \
 && apt-get clean \
 && rm -rf /var/lib/apt/lists/*
 
@@ -92,8 +93,3 @@ RUN JULIA_MAJOR=`echo $JULIA_VERSION | sed -E  "s/\.[0-9]+$//g"` && \
     rm -r julia-$JULIA_VERSION-linux-aarch64.tar.gz
     # AMD
     #rm -r julia-$JULIA_VERSION-linux-x86_64.tar.gz
-
-RUN su rstudio
-ENV JULIA_DEPOT_PATH=$HOME/.julia
-RUN julia -e 'using Pkg;Pkg.update();Pkg.add(["IJulia","PyCall"]);Pkg.build(["IJulia","PyCall"])'
-RUN julia -e 'using Pkg;Pkg.add(["DataFrames","Distributions","Plots","RDatasets","Turing","RxInfer"])'

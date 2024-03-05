@@ -21,19 +21,19 @@ Keywords: psychology, cognitive science, rstudio, rstan, rmarkdown
 
 
 ```
-docker run -e PASSWORD=password -p 8787:8787 -v $(pwd):/home/rstudio -d --name cppr ykunisato/ccp-r:latest
+docker run -e PASSWORD=password -e ROOT=true -p 8787:8787 -v $(pwd):/home/rstudio -d --name cppr ykunisato/ccp-r:latest
 ```
 or
 
 ```
-docker run -e PASSWORD=password -e DISABLE_AUTH=true -p 8787:8787 -v $(pwd):/home/rstudio -d --name ccpr ykunisato/ccp-r:latest
+docker run -e PASSWORD=password -e DISABLE_AUTH=true -e ROOT=true -p 8787:8787 -v $(pwd):/home/rstudio -d --name ccpr ykunisato/ccp-r:latest
 ```
 
 **Windows**
 
 
 ```
-docker run -e PASSWORD=password -p 8787:8787 -v "%cd%":/home/rstudio -d --name ccpr ykunisato/ccp-r:latest
+docker run -e PASSWORD=password -e ROOT=true -p 8787:8787 -v "%cd%":/home/rstudio -d --name ccpr ykunisato/ccp-r:latest
 ```
 
 
@@ -54,10 +54,9 @@ tinytex::install_tinytex()
 Terminal of the Rstudio.
 
 ```
-r -e 'cmdstanr::install_cmdstan(cores = 2)'
-r -e 'tinytex::install_tinytex()'
+export JULIA_DEPOT_PATH=$HOME/.julia
 julia -e 'using Pkg;Pkg.update();Pkg.add(["IJulia","PyCall"]);Pkg.build(["IJulia","PyCall"])'
-julia -e 'using Pkg;Pkg.add(["DataFrames","Distributions","Plots","RDatasets","Turing","RxInfer"])'
+julia -e 'using Pkg;Pkg.add(["DataFrames","Distributions","RDatasets","Turing","RxInfer"])'
 ```
 
 julia -e 'using Pkg;Pkg.add("Julia packages")'
