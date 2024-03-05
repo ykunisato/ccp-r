@@ -55,8 +55,7 @@ Unfortunately, the Julia package cannot be installed by general users. It needs 
 
 ```
 export JULIA_DEPOT_PATH="/home/rstudio/.julia"
-sudo julia -e 'using Pkg;Pkg.update();Pkg.add(["IJulia","PyCall"]);Pkg.build(["IJulia","PyCall"])'
-sudo julia -e 'using Pkg;Pkg.add(["DataFrames","Distributions","RDatasets","Turing","RxInfer"])'
+julia -e 'using Pkg;Pkg.update();Pkg.add(["IJulia","PyCall"]);Pkg.build(["IJulia","PyCall"]);Pkg.add(["DataFrames","Distributions","Gadfly","RDatasets","Turing","RxInfer"])'
 ```
 
 When using Julia with Quarto, interactive code execution is not possible and must be executed with the following code.
