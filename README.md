@@ -54,7 +54,7 @@ tinytex::install_tinytex()
 Terminal of the Rstudio.
 
 ```
-export JULIA_DEPOT_PATH=$HOME/.julia
+export JULIA_DEPOT_PATH="/home/rstudio/.julia"
 julia -e 'using Pkg;Pkg.update();Pkg.add(["IJulia","PyCall"]);Pkg.build(["IJulia","PyCall"])'
 julia -e 'using Pkg;Pkg.add(["DataFrames","Distributions","RDatasets","Turing","RxInfer"])'
 ```
