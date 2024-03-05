@@ -12,7 +12,7 @@ Keywords: psychology, cognitive science, rstudio, rstan, rmarkdown
 
 1. Install ["Docker Desktop"](https://www.docker.com/products/docker-desktop)
 
-2. Open "terminal"(Mac) or "Command Prompt"(Windows)
+2. Open "terminal"(Mac) or "PowerShell"(Windows)
 
 3. Type the following code to pull a Docker container. Change the "password" and "name_of_container" as you like.
 
@@ -21,19 +21,19 @@ Keywords: psychology, cognitive science, rstudio, rstan, rmarkdown
 
 
 ```
-docker run -e PASSWORD=password -e ROOT=true -p 8787:8787 -v $(pwd):/home/rstudio -d --name cppr ykunisato/ccp-r:latest
+docker run -e PASSWORD=password -p 8787:8787 -v $(pwd):/home/rstudio -d --name ccpr ykunisato/ccp-r:latest
 ```
 or
 
 ```
-docker run -e PASSWORD=password -e DISABLE_AUTH=true -e ROOT=true -p 8787:8787 -v $(pwd):/home/rstudio -d --name ccpr ykunisato/ccp-r:latest
+docker run -e PASSWORD=password -e DISABLE_AUTH=true -p 8787:8787 -v $(pwd):/home/rstudio -d --name ccpr ykunisato/ccp-r:latest
 ```
 
 **Windows**
 
 
 ```
-docker run -e PASSWORD=password -e ROOT=true -p 8787:8787 -v "%cd%":/home/rstudio -d --name ccpr ykunisato/ccp-r:latest
+docker run -e PASSWORD=password -p 8787:8787 -v "%cd%":/home/rstudio -d --name ccpr ykunisato/ccp-r:latest
 ```
 
 
@@ -41,9 +41,10 @@ docker run -e PASSWORD=password -e ROOT=true -p 8787:8787 -v "%cd%":/home/rstudi
 
 5. You will see the Rstudio on the web browser. Type rstudio in ID column and password that you set in password column.
 
-6. If you use cmdstan, tinytex and Juliapackage, please execute the following code.
+6. If you use cmdstan, tinytex and Julia, please execute the following code.
 
 R console of RStudio
+
 ```
 cmdstanr::install_cmdstan(cores = 2)
 tinytex::install_tinytex()
