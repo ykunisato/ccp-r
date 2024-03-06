@@ -1,6 +1,6 @@
 # Dockerfile of writing paper by R Markdown
 
-This is a repository of Dockerfile including packages and add-ins that are useful for writing articles with R Markdown in Rstudio. This Dockerfile is based on rocker/rstudio. The GitHub repository for this Docker image is: [ykunisato/ccp-r](https://github.com/ykunisato/ccp-r).
+This is a repository of Dockerfile for Rstudio server  used in [Computational Clinical Psychology Lab](https://kunisatolab.github.io/english/index.html), including packages and add-ins that are useful for writing articles with R Markdown in Rstudio. This Dockerfile is based on rocker/rstudio. The GitHub repository for this Docker image is: [ykunisato/ccp-r](https://github.com/ykunisato/ccp-r).
 
 [日本語解説(Japanese)](https://github.com/ykunisato/ccp-r/blob/master/README_jp.md)
 
