@@ -14,6 +14,8 @@ RUN apt-get -y install ffmpeg
 RUN apt-get install -y libmagick++-dev
 # install clang for Stan
 RUN apt-get install -y clang make
+# install libcurl for httr
+RUN apt-get install -y libcurl4-openssl-dev 
 # Install JAGS and other linux packages
 RUN apt-get update && apt-get install -y \
     jags \

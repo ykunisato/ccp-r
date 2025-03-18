@@ -135,7 +135,7 @@ install.packages(c("memisc",
 "tidytext",
 "textmineR",
 "text2vec",
-"bayesplot"), error = TRUE, dependencies = TRUE)
+"bayesplot"), dependencies = TRUE)
 
 BiocManager::install(c("graph", "RBGL", "Rgraphviz"), update = TRUE, ask = FALSE)
 
