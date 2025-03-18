@@ -59,38 +59,40 @@ RUN wget -O mecab-ipadic-2.7.0-20070801.tar.gz "https://drive.google.com/uc?expo
 COPY install_r.r install_r.r
 RUN ["r", "install_r.r"]
 
-# install python packaegs
+# Add some packages
+RUN apt-get update
 RUN apt install -y wget \
     git \
     python3 \
     python3-pip \
     python3-dev
 
-RUN pip3 install notebook \
-    jupyterlab \
-    jupyterlab-git \
-    scipy \
-    seaborn \
-    scikit-learn \
-    sympy \
-    inferactively-pymdp\
-    bokeh \
-    pyhgf \
-    unidic-lite \
-    mecab-python3
+# install python packaegs(comment out 2025-03-18)
+#RUN pip3 install notebook \
+#    jupyterlab \
+#    jupyterlab-git \
+#    scipy \
+#    seaborn \
+#    scikit-learn \
+#    sympy \
+#    inferactively-pymdp\
+#    bokeh \
+#    pyhgf \
+#    unidic-lite \
+#    mecab-python3
 
-# Install Julia
-ARG JULIA_VERSION="1.10.2"
-RUN JULIA_MAJOR=`echo $JULIA_VERSION | sed -E  "s/\.[0-9]+$//g"` && \
+# Install Julia (comment out 2025-03-18)
+#ARG JULIA_VERSION="1.10.2"
+#RUN JULIA_MAJOR=`echo $JULIA_VERSION | sed -E  "s/\.[0-9]+$//g"` && \
     # ARM
-    wget https://julialang-s3.julialang.org/bin/linux/aarch64/$JULIA_MAJOR/julia-$JULIA_VERSION-linux-aarch64.tar.gz && \
-    tar -xvzf julia-$JULIA_VERSION-linux-aarch64.tar.gz && \
+#    wget https://julialang-s3.julialang.org/bin/linux/aarch64/$JULIA_MAJOR/julia-$JULIA_VERSION-linux-aarch64.tar.gz && \
+#    tar -xvzf julia-$JULIA_VERSION-linux-aarch64.tar.gz && \
     # AMD
     #wget https://julialang-s3.julialang.org/bin/linux/x64/$JULIA_MAJOR/julia-$JULIA_VERSION-linux-x86_64.tar.gz && \
     #tar -xvzf julia-$JULIA_VERSION-linux-x86_64.tar.gz && \
-    cp -r julia-$JULIA_VERSION /opt/ && \
-    ln -s /opt/julia-$JULIA_VERSION/bin/julia /usr/local/bin/julia && \
+#    cp -r julia-$JULIA_VERSION /opt/ && \
+#    ln -s /opt/julia-$JULIA_VERSION/bin/julia /usr/local/bin/julia && \
     # ARM
-    rm -r julia-$JULIA_VERSION-linux-aarch64.tar.gz
+#    rm -r julia-$JULIA_VERSION-linux-aarch64.tar.gz
     # AMD
     #rm -r julia-$JULIA_VERSION-linux-x86_64.tar.gz
