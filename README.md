@@ -95,17 +95,6 @@ mcmc_hist(fit$draws("theta"))
 tinytex::install_tinytex()
 ```
 
-3. If you use a Julia, please execute the following code on Terminal in the Rstudio.
-
-
-```
-export JULIA_DEPOT_PATH="/home/rstudio/.julia"
-julia -e 'using Pkg;Pkg.update();Pkg.add(["IJulia","PyCall"]);Pkg.build(["IJulia","PyCall"])'
-```
-
-Unfortunately, the Julia packages cannot be installed by general users. 
-
-
 ## List of installed packages
 
 <table>
