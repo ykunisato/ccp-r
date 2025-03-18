@@ -1,4 +1,5 @@
-FROM rocker/rstudio:latest
+# FROM rocker/rstudio:latest
+FROM rocker/rstudio:4.4.3
 LABEL maintainer="Yoshihiko Kunisato <kunisato@psy.senshu-u.ac.jp>"
 
 # Install ipaexfont
