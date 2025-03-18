@@ -17,16 +17,28 @@ Keywords: psychology, cognitive science, rstudio, stan, rmarkdown, Quarto
 3. Type the following code to pull a Docker container. Change the "password" and "name_of_container" as you like.
 
 
-**Mac**
+**Mac(apple silicon)**
 
 
 ```
-docker run -e PASSWORD=password -p 8787:8787 -v $(pwd):/home/rstudio -d --name ccpr ykunisato/ccp-r:latest
+docker run -e PASSWORD=password -p 8787:8787 -v $(pwd):/home/rstudio -d --name ccpr ykunisato/ccp-r:latest-arm64
 ```
 or
 
 ```
-docker run -e PASSWORD=password -e DISABLE_AUTH=true -p 8787:8787 -v $(pwd):/home/rstudio -d --name ccpr ykunisato/ccp-r:latest
+docker run -e PASSWORD=password -e DISABLE_AUTH=true -p 8787:8787 -v $(pwd):/home/rstudio -d --name ccpr ykunisato/ccp-r:latest-arm64
+```
+
+**Mac(intel)**
+
+
+```
+docker run -e PASSWORD=password -p 8787:8787 -v $(pwd):/home/rstudio -d --name ccpr ykunisato/ccp-r:latest-amd64
+```
+or
+
+```
+docker run -e PASSWORD=password -e DISABLE_AUTH=true -p 8787:8787 -v $(pwd):/home/rstudio -d --name ccpr ykunisato/ccp-r:latest-amd64
 ```
 
 **Windows**

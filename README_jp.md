@@ -16,16 +16,28 @@ Docker Desktopがインストールされていて，ある程度の通信速度
 
 3.ターミナルに以下を打ち込んで、コンテナーをrunする(runの前にPullが自動的なされます)。パスワードとコンテナ名はご自身の好きなように設定ください。
 
-**Mac**
+**Mac(apple silicon)**
 
 
 ```
-docker run -e PASSWORD=password -p 8787:8787 -v $(pwd):/home/rstudio -d --name ccpr ykunisato/ccp-r:latest
+docker run -e PASSWORD=password -p 8787:8787 -v $(pwd):/home/rstudio -d --name ccpr ykunisato/ccp-r:latest-arm64
 ```
 or
 
 ```
-docker run -e PASSWORD=password -e DISABLE_AUTH=true -p 8787:8787 -v $(pwd):/home/rstudio -d --name ccpr ykunisato/ccp-r:latest
+docker run -e PASSWORD=password -e DISABLE_AUTH=true -p 8787:8787 -v $(pwd):/home/rstudio -d --name ccpr ykunisato/ccp-r:latest-arm64
+```
+
+**Mac(intel)**
+
+
+```
+docker run -e PASSWORD=password -p 8787:8787 -v $(pwd):/home/rstudio -d --name ccpr ykunisato/ccp-r:latest-amd64
+```
+or
+
+```
+docker run -e PASSWORD=password -e DISABLE_AUTH=true -p 8787:8787 -v $(pwd):/home/rstudio -d --name ccpr ykunisato/ccp-r:latest-amd64
 ```
 
 **Windows**
