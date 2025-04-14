@@ -135,7 +135,8 @@ install.packages(c("memisc",
 "tidytext",
 "textmineR",
 "text2vec",
-"bayesplot"), dependencies = TRUE)
+"bayesplot",
+"effsize"), dependencies = TRUE)
 
 BiocManager::install(c("graph", "RBGL", "Rgraphviz"), update = TRUE, ask = FALSE)
 
@@ -150,4 +151,5 @@ install.packages("RMeCab", repos = "https://rmecab.jp/R", type = "source")
 # install R packages from GitHub
 remotes::install_github(c("MathiasHarrer/dmetar",
 "ykunisato/jpaRmd",
-"ykunisato/psyinfr"), dependencies = TRUE)
+"ykunisato/psyinfr",
+"dstanley4/apaTables"), dependencies = TRUE)
