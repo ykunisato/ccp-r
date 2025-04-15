@@ -116,7 +116,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">admisc</td>
-<td style="text-align: left;">0.37</td>
+<td style="text-align: left;">0.38</td>
 </tr>
 <tr>
 <td style="text-align: left;">AER</td>
@@ -128,7 +128,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">AlgDesign</td>
-<td style="text-align: left;">1.2.1.1</td>
+<td style="text-align: left;">1.2.1.2</td>
 </tr>
 <tr>
 <td style="text-align: left;">alr4</td>
@@ -148,11 +148,15 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">apaTables</td>
-<td style="text-align: left;">2.0.8</td>
+<td style="text-align: left;">3.0.0</td>
 </tr>
 <tr>
 <td style="text-align: left;">ape</td>
 <td style="text-align: left;">5.8-1</td>
+</tr>
+<tr>
+<td style="text-align: left;">archive</td>
+<td style="text-align: left;">1.1.12</td>
 </tr>
 <tr>
 <td style="text-align: left;">arm</td>
@@ -164,7 +168,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">AsioHeaders</td>
-<td style="text-align: left;">1.22.1-2</td>
+<td style="text-align: left;">1.28.2-1</td>
 </tr>
 <tr>
 <td style="text-align: left;">askpass</td>
@@ -177,6 +181,10 @@ tinytex::tlmgr_install("haranoaji")
 <tr>
 <td style="text-align: left;">assortnet</td>
 <td style="text-align: left;">0.20</td>
+</tr>
+<tr>
+<td style="text-align: left;">av</td>
+<td style="text-align: left;">0.9.4</td>
 </tr>
 <tr>
 <td style="text-align: left;">AzureAuth</td>
@@ -212,7 +220,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">bayesplot</td>
-<td style="text-align: left;">1.11.1</td>
+<td style="text-align: left;">1.12.0</td>
 </tr>
 <tr>
 <td style="text-align: left;">bayesQR</td>
@@ -280,7 +288,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">bigD</td>
-<td style="text-align: left;">0.3.0</td>
+<td style="text-align: left;">0.3.1</td>
 </tr>
 <tr>
 <td style="text-align: left;">biglm</td>
@@ -316,7 +324,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">BiocGenerics</td>
-<td style="text-align: left;">0.52.0</td>
+<td style="text-align: left;">0.53.6</td>
 </tr>
 <tr>
 <td style="text-align: left;">BiocManager</td>
@@ -324,7 +332,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">BiocVersion</td>
-<td style="text-align: left;">3.20.0</td>
+<td style="text-align: left;">3.21.1</td>
 </tr>
 <tr>
 <td style="text-align: left;">bit</td>
@@ -376,7 +384,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">BradleyTerry2</td>
-<td style="text-align: left;">1.1-2</td>
+<td style="text-align: left;">1.1.3</td>
 </tr>
 <tr>
 <td style="text-align: left;">brew</td>
@@ -408,7 +416,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">broom</td>
-<td style="text-align: left;">1.0.7</td>
+<td style="text-align: left;">1.0.8</td>
 </tr>
 <tr>
 <td style="text-align: left;">broom.helpers</td>
@@ -432,7 +440,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">cAIC4</td>
-<td style="text-align: left;">1.0</td>
+<td style="text-align: left;">1.1</td>
 </tr>
 <tr>
 <td style="text-align: left;">Cairo</td>
@@ -516,7 +524,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">chromote</td>
-<td style="text-align: left;">0.4.0</td>
+<td style="text-align: left;">0.5.0</td>
 </tr>
 <tr>
 <td style="text-align: left;">chron</td>
@@ -540,11 +548,11 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">clock</td>
-<td style="text-align: left;">0.7.2</td>
+<td style="text-align: left;">0.7.3</td>
 </tr>
 <tr>
 <td style="text-align: left;">clubSandwich</td>
-<td style="text-align: left;">0.5.11</td>
+<td style="text-align: left;">0.6.0</td>
 </tr>
 <tr>
 <td style="text-align: left;">clue</td>
@@ -663,6 +671,10 @@ tinytex::tlmgr_install("haranoaji")
 <td style="text-align: left;">2.0.2</td>
 </tr>
 <tr>
+<td style="text-align: left;">crossnma</td>
+<td style="text-align: left;">1.3.0</td>
+</tr>
+<tr>
 <td style="text-align: left;">crosstalk</td>
 <td style="text-align: left;">1.2.1</td>
 </tr>
@@ -676,11 +688,11 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">Cubist</td>
-<td style="text-align: left;">0.4.4</td>
+<td style="text-align: left;">0.5.0</td>
 </tr>
 <tr>
 <td style="text-align: left;">curl</td>
-<td style="text-align: left;">6.2.1</td>
+<td style="text-align: left;">6.2.2</td>
 </tr>
 <tr>
 <td style="text-align: left;">CVST</td>
@@ -704,7 +716,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">datawizard</td>
-<td style="text-align: left;">1.0.1</td>
+<td style="text-align: left;">1.0.2</td>
 </tr>
 <tr>
 <td style="text-align: left;">DBI</td>
@@ -816,11 +828,15 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">doBy</td>
-<td style="text-align: left;">4.6.25</td>
+<td style="text-align: left;">4.6.26</td>
+</tr>
+<tr>
+<td style="text-align: left;">doconv</td>
+<td style="text-align: left;">0.3.2</td>
 </tr>
 <tr>
 <td style="text-align: left;">docopt</td>
-<td style="text-align: left;">0.7.1</td>
+<td style="text-align: left;">0.7.2</td>
 </tr>
 <tr>
 <td style="text-align: left;">DoE.base</td>
@@ -844,7 +860,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">doRNG</td>
-<td style="text-align: left;">1.8.6.1</td>
+<td style="text-align: left;">1.8.6.2</td>
 </tr>
 <tr>
 <td style="text-align: left;">dotCall64</td>
@@ -856,7 +872,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">downloader</td>
-<td style="text-align: left;">0.4</td>
+<td style="text-align: left;">0.4.1</td>
 </tr>
 <tr>
 <td style="text-align: left;">dplyr</td>
@@ -880,7 +896,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">DstarM</td>
-<td style="text-align: left;">0.4.0</td>
+<td style="text-align: left;">0.5.0</td>
 </tr>
 <tr>
 <td style="text-align: left;">DT</td>
@@ -915,8 +931,12 @@ tinytex::tlmgr_install("haranoaji")
 <td style="text-align: left;">1.0.0</td>
 </tr>
 <tr>
+<td style="text-align: left;">effsize</td>
+<td style="text-align: left;">0.8.1</td>
+</tr>
+<tr>
 <td style="text-align: left;">EGAnet</td>
-<td style="text-align: left;">2.2.0</td>
+<td style="text-align: left;">2.3.0</td>
 </tr>
 <tr>
 <td style="text-align: left;">egg</td>
@@ -940,7 +960,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">emmeans</td>
-<td style="text-align: left;">1.10.7</td>
+<td style="text-align: left;">1.11.0</td>
 </tr>
 <tr>
 <td style="text-align: left;">energy</td>
@@ -949,6 +969,14 @@ tinytex::tlmgr_install("haranoaji")
 <tr>
 <td style="text-align: left;">enrichwith</td>
 <td style="text-align: left;">0.3.1</td>
+</tr>
+<tr>
+<td style="text-align: left;">epiR</td>
+<td style="text-align: left;">2.0.81</td>
+</tr>
+<tr>
+<td style="text-align: left;">equatags</td>
+<td style="text-align: left;">0.2.1</td>
 </tr>
 <tr>
 <td style="text-align: left;">ergm</td>
@@ -993,6 +1021,10 @@ tinytex::tlmgr_install("haranoaji")
 <tr>
 <td style="text-align: left;">extrafontdb</td>
 <td style="text-align: left;">1.0</td>
+</tr>
+<tr>
+<td style="text-align: left;">ez</td>
+<td style="text-align: left;">4.4-0</td>
 </tr>
 <tr>
 <td style="text-align: left;">factoextra</td>
@@ -1136,7 +1168,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">forecast</td>
-<td style="text-align: left;">8.23.0</td>
+<td style="text-align: left;">8.24.0</td>
 </tr>
 <tr>
 <td style="text-align: left;">formattable</td>
@@ -1180,7 +1212,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">future</td>
-<td style="text-align: left;">1.34.0</td>
+<td style="text-align: left;">1.40.0</td>
 </tr>
 <tr>
 <td style="text-align: left;">future.apply</td>
@@ -1248,7 +1280,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">gdtools</td>
-<td style="text-align: left;">0.4.1</td>
+<td style="text-align: left;">0.4.2</td>
 </tr>
 <tr>
 <td style="text-align: left;">gee</td>
@@ -1276,7 +1308,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">gert</td>
-<td style="text-align: left;">2.1.4</td>
+<td style="text-align: left;">2.1.5</td>
 </tr>
 <tr>
 <td style="text-align: left;">getPass</td>
@@ -1285,6 +1317,10 @@ tinytex::tlmgr_install("haranoaji")
 <tr>
 <td style="text-align: left;">GGally</td>
 <td style="text-align: left;">2.2.1</td>
+</tr>
+<tr>
+<td style="text-align: left;">gganimate</td>
+<td style="text-align: left;">1.0.9</td>
 </tr>
 <tr>
 <td style="text-align: left;">ggdag</td>
@@ -1336,7 +1372,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">ggplot2</td>
-<td style="text-align: left;">3.5.1</td>
+<td style="text-align: left;">3.5.2</td>
 </tr>
 <tr>
 <td style="text-align: left;">ggplot2movies</td>
@@ -1416,7 +1452,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">glmmTMB</td>
-<td style="text-align: left;">1.1.10</td>
+<td style="text-align: left;">1.1.11</td>
 </tr>
 <tr>
 <td style="text-align: left;">glmnet</td>
@@ -1484,7 +1520,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">graph</td>
-<td style="text-align: left;">1.84.1</td>
+<td style="text-align: left;">1.85.3</td>
 </tr>
 <tr>
 <td style="text-align: left;">graphicalVAR</td>
@@ -1528,7 +1564,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">gt</td>
-<td style="text-align: left;">0.11.1</td>
+<td style="text-align: left;">1.0.0</td>
 </tr>
 <tr>
 <td style="text-align: left;">gtable</td>
@@ -1620,7 +1656,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">httr2</td>
-<td style="text-align: left;">1.1.1</td>
+<td style="text-align: left;">1.1.2</td>
 </tr>
 <tr>
 <td style="text-align: left;">huge</td>
@@ -1632,7 +1668,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">hunspell</td>
-<td style="text-align: left;">3.0.5</td>
+<td style="text-align: left;">3.0.6</td>
 </tr>
 <tr>
 <td style="text-align: left;">huxtable</td>
@@ -1640,11 +1676,11 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">hypergeo</td>
-<td style="text-align: left;">1.2-13</td>
+<td style="text-align: left;">1.2-14</td>
 </tr>
 <tr>
 <td style="text-align: left;">ICS</td>
-<td style="text-align: left;">1.4-1</td>
+<td style="text-align: left;">1.4-2</td>
 </tr>
 <tr>
 <td style="text-align: left;">ICSOutlier</td>
@@ -1660,7 +1696,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">imager</td>
-<td style="text-align: left;">1.0.2</td>
+<td style="text-align: left;">1.0.3</td>
 </tr>
 <tr>
 <td style="text-align: left;">imputeTS</td>
@@ -1760,7 +1796,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">jpeg</td>
-<td style="text-align: left;">0.1-10</td>
+<td style="text-align: left;">0.1-11</td>
 </tr>
 <tr>
 <td style="text-align: left;">jquerylib</td>
@@ -1768,7 +1804,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">jsonlite</td>
-<td style="text-align: left;">1.9.1</td>
+<td style="text-align: left;">2.0.0</td>
 </tr>
 <tr>
 <td style="text-align: left;">jsonvalidate</td>
@@ -1852,7 +1888,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">later</td>
-<td style="text-align: left;">1.4.1</td>
+<td style="text-align: left;">1.4.2</td>
 </tr>
 <tr>
 <td style="text-align: left;">latex2exp</td>
@@ -1931,12 +1967,16 @@ tinytex::tlmgr_install("haranoaji")
 <td style="text-align: left;">0.9.1</td>
 </tr>
 <tr>
+<td style="text-align: left;">litedown</td>
+<td style="text-align: left;">0.7</td>
+</tr>
+<tr>
 <td style="text-align: left;">literanger</td>
 <td style="text-align: left;">0.1.1</td>
 </tr>
 <tr>
 <td style="text-align: left;">littler</td>
-<td style="text-align: left;">0.3.20</td>
+<td style="text-align: left;">0.3.21</td>
 </tr>
 <tr>
 <td style="text-align: left;">lm.beta</td>
@@ -1944,7 +1984,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">lme4</td>
-<td style="text-align: left;">1.1-36</td>
+<td style="text-align: left;">1.1-37</td>
 </tr>
 <tr>
 <td style="text-align: left;">lmerTest</td>
@@ -2012,11 +2052,15 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">magick</td>
-<td style="text-align: left;">2.8.5</td>
+<td style="text-align: left;">2.8.6</td>
 </tr>
 <tr>
 <td style="text-align: left;">magrittr</td>
 <td style="text-align: left;">2.0.3</td>
+</tr>
+<tr>
+<td style="text-align: left;">mallet</td>
+<td style="text-align: left;">1.3.0</td>
 </tr>
 <tr>
 <td style="text-align: left;">mapproj</td>
@@ -2028,11 +2072,11 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">marginaleffects</td>
-<td style="text-align: left;">0.25.0</td>
+<td style="text-align: left;">0.25.1</td>
 </tr>
 <tr>
 <td style="text-align: left;">markdown</td>
-<td style="text-align: left;">1.13</td>
+<td style="text-align: left;">2.0</td>
 </tr>
 <tr>
 <td style="text-align: left;">mathjaxr</td>
@@ -2048,7 +2092,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">MatrixModels</td>
-<td style="text-align: left;">0.5-3</td>
+<td style="text-align: left;">0.5-4</td>
 </tr>
 <tr>
 <td style="text-align: left;">matrixStats</td>
@@ -2296,7 +2340,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">MuMIn</td>
-<td style="text-align: left;">1.48.4</td>
+<td style="text-align: left;">1.48.11</td>
 </tr>
 <tr>
 <td style="text-align: left;">munsell</td>
@@ -2324,7 +2368,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">netmeta</td>
-<td style="text-align: left;">3.1-1</td>
+<td style="text-align: left;">3.2-0</td>
 </tr>
 <tr>
 <td style="text-align: left;">network</td>
@@ -2392,19 +2436,19 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">officedown</td>
-<td style="text-align: left;">0.3.3</td>
+<td style="text-align: left;">0.4.0</td>
 </tr>
 <tr>
 <td style="text-align: left;">officer</td>
-<td style="text-align: left;">0.6.7</td>
+<td style="text-align: left;">0.6.8</td>
 </tr>
 <tr>
 <td style="text-align: left;">oompaBase</td>
-<td style="text-align: left;">3.2.9</td>
+<td style="text-align: left;">3.2.10</td>
 </tr>
 <tr>
 <td style="text-align: left;">oompaData</td>
-<td style="text-align: left;">3.1.4</td>
+<td style="text-align: left;">3.1.5</td>
 </tr>
 <tr>
 <td style="text-align: left;">opdisDownsampling</td>
@@ -2424,7 +2468,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">openxlsx2</td>
-<td style="text-align: left;">1.13</td>
+<td style="text-align: left;">1.14</td>
 </tr>
 <tr>
 <td style="text-align: left;">operator.tools</td>
@@ -2432,7 +2476,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">optimx</td>
-<td style="text-align: left;">2024-12.2</td>
+<td style="text-align: left;">2025-4.9</td>
 </tr>
 <tr>
 <td style="text-align: left;">ordbetareg</td>
@@ -2456,7 +2500,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">pak</td>
-<td style="text-align: left;">0.8.0.1</td>
+<td style="text-align: left;">0.8.0.2</td>
 </tr>
 <tr>
 <td style="text-align: left;">pals</td>
@@ -2484,7 +2528,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">parallelly</td>
-<td style="text-align: left;">1.42.0</td>
+<td style="text-align: left;">1.43.0</td>
 </tr>
 <tr>
 <td style="text-align: left;">parameters</td>
@@ -2535,6 +2579,10 @@ tinytex::tlmgr_install("haranoaji")
 <td style="text-align: left;">2.0-5</td>
 </tr>
 <tr>
+<td style="text-align: left;">pdftools</td>
+<td style="text-align: left;">3.5.0</td>
+</tr>
+<tr>
 <td style="text-align: left;">penalized</td>
 <td style="text-align: left;">0.9-52</td>
 </tr>
@@ -2552,7 +2600,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">pillar</td>
-<td style="text-align: left;">1.10.1</td>
+<td style="text-align: left;">1.10.2</td>
 </tr>
 <tr>
 <td style="text-align: left;">pingr</td>
@@ -2564,7 +2612,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">pkgbuild</td>
-<td style="text-align: left;">1.4.6</td>
+<td style="text-align: left;">1.4.7</td>
 </tr>
 <tr>
 <td style="text-align: left;">pkgcache</td>
@@ -2592,7 +2640,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">plm</td>
-<td style="text-align: left;">2.6-5</td>
+<td style="text-align: left;">2.6-6</td>
 </tr>
 <tr>
 <td style="text-align: left;">plogr</td>
@@ -2680,7 +2728,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">priorsense</td>
-<td style="text-align: left;">1.0.4</td>
+<td style="text-align: left;">1.1.0</td>
 </tr>
 <tr>
 <td style="text-align: left;">pROC</td>
@@ -2748,7 +2796,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">psych</td>
-<td style="text-align: left;">2.4.12</td>
+<td style="text-align: left;">2.5.3</td>
 </tr>
 <tr>
 <td style="text-align: left;">psycho</td>
@@ -2760,7 +2808,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">psychTools</td>
-<td style="text-align: left;">2.4.3</td>
+<td style="text-align: left;">2.5.3</td>
 </tr>
 <tr>
 <td style="text-align: left;">psyinfr</td>
@@ -2780,7 +2828,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">qgam</td>
-<td style="text-align: left;">1.3.4</td>
+<td style="text-align: left;">2.0.0</td>
 </tr>
 <tr>
 <td style="text-align: left;">qgraph</td>
@@ -2788,7 +2836,15 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">qpdf</td>
-<td style="text-align: left;">1.3.4</td>
+<td style="text-align: left;">1.3.5</td>
+</tr>
+<tr>
+<td style="text-align: left;">qqconf</td>
+<td style="text-align: left;">1.3.2</td>
+</tr>
+<tr>
+<td style="text-align: left;">qqplotr</td>
+<td style="text-align: left;">0.0.6</td>
 </tr>
 <tr>
 <td style="text-align: left;">qreport</td>
@@ -2796,7 +2852,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">QRM</td>
-<td style="text-align: left;">0.4-31</td>
+<td style="text-align: left;">0.4-35</td>
 </tr>
 <tr>
 <td style="text-align: left;">qs</td>
@@ -2812,7 +2868,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">quantmod</td>
-<td style="text-align: left;">0.4.26</td>
+<td style="text-align: left;">0.4.27</td>
 </tr>
 <tr>
 <td style="text-align: left;">quantreg</td>
@@ -2820,11 +2876,11 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">questionr</td>
-<td style="text-align: left;">0.7.8</td>
+<td style="text-align: left;">0.8.0</td>
 </tr>
 <tr>
 <td style="text-align: left;">QuickJSR</td>
-<td style="text-align: left;">1.6.0</td>
+<td style="text-align: left;">1.7.0</td>
 </tr>
 <tr>
 <td style="text-align: left;">qvcalc</td>
@@ -2864,7 +2920,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">ragg</td>
-<td style="text-align: left;">1.3.3</td>
+<td style="text-align: left;">1.4.0</td>
 </tr>
 <tr>
 <td style="text-align: left;">randomForest</td>
@@ -2891,8 +2947,12 @@ tinytex::tlmgr_install("haranoaji")
 <td style="text-align: left;">0.3.3</td>
 </tr>
 <tr>
+<td style="text-align: left;">raster</td>
+<td style="text-align: left;">3.6-32</td>
+</tr>
+<tr>
 <td style="text-align: left;">RBGL</td>
-<td style="text-align: left;">1.82.0</td>
+<td style="text-align: left;">1.83.0</td>
 </tr>
 <tr>
 <td style="text-align: left;">rbibutils</td>
@@ -2916,7 +2976,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">RcppArmadillo</td>
-<td style="text-align: left;">14.2.3-1</td>
+<td style="text-align: left;">14.4.1-1</td>
 </tr>
 <tr>
 <td style="text-align: left;">RcppDist</td>
@@ -2944,11 +3004,11 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">RCurl</td>
-<td style="text-align: left;">1.98-1.16</td>
+<td style="text-align: left;">1.98-1.17</td>
 </tr>
 <tr>
 <td style="text-align: left;">Rdpack</td>
-<td style="text-align: left;">2.6.3</td>
+<td style="text-align: left;">2.6.4</td>
 </tr>
 <tr>
 <td style="text-align: left;">reactable</td>
@@ -2972,7 +3032,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">recipes</td>
-<td style="text-align: left;">1.2.0</td>
+<td style="text-align: left;">1.2.1</td>
 </tr>
 <tr>
 <td style="text-align: left;">reformulas</td>
@@ -3008,7 +3068,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">renv</td>
-<td style="text-align: left;">1.1.2</td>
+<td style="text-align: left;">1.1.4</td>
 </tr>
 <tr>
 <td style="text-align: left;">repr</td>
@@ -3028,7 +3088,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">reticulate</td>
-<td style="text-align: left;">1.41.0.1</td>
+<td style="text-align: left;">1.42.0</td>
 </tr>
 <tr>
 <td style="text-align: left;">rex</td>
@@ -3040,7 +3100,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">rgl</td>
-<td style="text-align: left;">1.3.17</td>
+<td style="text-align: left;">1.3.18</td>
 </tr>
 <tr>
 <td style="text-align: left;">Rglpk</td>
@@ -3048,7 +3108,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">Rgraphviz</td>
-<td style="text-align: left;">2.50.0</td>
+<td style="text-align: left;">2.51.9</td>
 </tr>
 <tr>
 <td style="text-align: left;">RhpcBLASctl</td>
@@ -3068,7 +3128,11 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">rjags</td>
-<td style="text-align: left;">4-16</td>
+<td style="text-align: left;">4-17</td>
+</tr>
+<tr>
+<td style="text-align: left;">rJava</td>
+<td style="text-align: left;">1.0-11</td>
 </tr>
 <tr>
 <td style="text-align: left;">rjson</td>
@@ -3112,7 +3176,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">rms</td>
-<td style="text-align: left;">7.0-0</td>
+<td style="text-align: left;">8.0-0</td>
 </tr>
 <tr>
 <td style="text-align: left;">rngtools</td>
@@ -3167,6 +3231,10 @@ tinytex::tlmgr_install("haranoaji")
 <td style="text-align: left;">1.0.14</td>
 </tr>
 <tr>
+<td style="text-align: left;">Rpoppler</td>
+<td style="text-align: left;">0.1-3</td>
+</tr>
+<tr>
 <td style="text-align: left;">rprojroot</td>
 <td style="text-align: left;">2.0.4</td>
 </tr>
@@ -3176,7 +3244,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">rsample</td>
-<td style="text-align: left;">1.2.1</td>
+<td style="text-align: left;">1.3.0</td>
 </tr>
 <tr>
 <td style="text-align: left;">rsconnect</td>
@@ -3184,7 +3252,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">rsm</td>
-<td style="text-align: left;">2.10.5</td>
+<td style="text-align: left;">2.10.6</td>
 </tr>
 <tr>
 <td style="text-align: left;">Rsolnp</td>
@@ -3224,7 +3292,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">rsvg</td>
-<td style="text-align: left;">2.6.1</td>
+<td style="text-align: left;">2.6.2</td>
 </tr>
 <tr>
 <td style="text-align: left;">rtdists</td>
@@ -3248,7 +3316,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">runjags</td>
-<td style="text-align: left;">2.2.2-4</td>
+<td style="text-align: left;">2.2.2-5</td>
 </tr>
 <tr>
 <td style="text-align: left;">rversions</td>
@@ -3260,7 +3328,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">rvg</td>
-<td style="text-align: left;">0.3.4</td>
+<td style="text-align: left;">0.3.5</td>
 </tr>
 <tr>
 <td style="text-align: left;">RWiener</td>
@@ -3281,6 +3349,10 @@ tinytex::tlmgr_install("haranoaji")
 <tr>
 <td style="text-align: left;">sass</td>
 <td style="text-align: left;">0.4.9</td>
+</tr>
+<tr>
+<td style="text-align: left;">scagnostics</td>
+<td style="text-align: left;">0.2-6</td>
 </tr>
 <tr>
 <td style="text-align: left;">scales</td>
@@ -3339,6 +3411,10 @@ tinytex::tlmgr_install("haranoaji")
 <td style="text-align: left;">1.0-25</td>
 </tr>
 <tr>
+<td style="text-align: left;">sf</td>
+<td style="text-align: left;">1.0-20</td>
+</tr>
+<tr>
 <td style="text-align: left;">sfd</td>
 <td style="text-align: left;">0.1.0</td>
 </tr>
@@ -3368,7 +3444,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">shinytest2</td>
-<td style="text-align: left;">0.3.2</td>
+<td style="text-align: left;">0.4.0</td>
 </tr>
 <tr>
 <td style="text-align: left;">shinythemes</td>
@@ -3472,7 +3548,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">sparsevctrs</td>
-<td style="text-align: left;">0.3.1</td>
+<td style="text-align: left;">0.3.2</td>
 </tr>
 <tr>
 <td style="text-align: left;">spatstat.data</td>
@@ -3480,7 +3556,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">spatstat.geom</td>
-<td style="text-align: left;">3.3-5</td>
+<td style="text-align: left;">3.3-6</td>
 </tr>
 <tr>
 <td style="text-align: left;">spatstat.univar</td>
@@ -3493,6 +3569,10 @@ tinytex::tlmgr_install("haranoaji")
 <tr>
 <td style="text-align: left;">spData</td>
 <td style="text-align: left;">2.3.4</td>
+</tr>
+<tr>
+<td style="text-align: left;">spdep</td>
+<td style="text-align: left;">1.3-10</td>
 </tr>
 <tr>
 <td style="text-align: left;">speedglm</td>
@@ -3556,7 +3636,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">stringi</td>
-<td style="text-align: left;">1.8.4</td>
+<td style="text-align: left;">1.8.7</td>
 </tr>
 <tr>
 <td style="text-align: left;">stringmagic</td>
@@ -3580,7 +3660,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">SuppDists</td>
-<td style="text-align: left;">1.1-9.8</td>
+<td style="text-align: left;">1.1-9.9</td>
 </tr>
 <tr>
 <td style="text-align: left;">support.CEs</td>
@@ -3620,7 +3700,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">systemfonts</td>
-<td style="text-align: left;">1.2.1</td>
+<td style="text-align: left;">1.2.2</td>
 </tr>
 <tr>
 <td style="text-align: left;">tables</td>
@@ -3629,6 +3709,14 @@ tinytex::tlmgr_install("haranoaji")
 <tr>
 <td style="text-align: left;">tensorA</td>
 <td style="text-align: left;">0.36.2.1</td>
+</tr>
+<tr>
+<td style="text-align: left;">terra</td>
+<td style="text-align: left;">1.8-42</td>
+</tr>
+<tr>
+<td style="text-align: left;">tesseract</td>
+<td style="text-align: left;">5.2.3</td>
 </tr>
 <tr>
 <td style="text-align: left;">testit</td>
@@ -3720,11 +3808,11 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">tinylabels</td>
-<td style="text-align: left;">0.2.4</td>
+<td style="text-align: left;">0.2.5</td>
 </tr>
 <tr>
 <td style="text-align: left;">tinytable</td>
-<td style="text-align: left;">0.7.0</td>
+<td style="text-align: left;">0.8.0</td>
 </tr>
 <tr>
 <td style="text-align: left;">tinytest</td>
@@ -3753,6 +3841,10 @@ tinytex::tlmgr_install("haranoaji")
 <tr>
 <td style="text-align: left;">topicmodels</td>
 <td style="text-align: left;">0.2-17</td>
+</tr>
+<tr>
+<td style="text-align: left;">transformr</td>
+<td style="text-align: left;">0.1.5</td>
 </tr>
 <tr>
 <td style="text-align: left;">triebeard</td>
@@ -3815,6 +3907,10 @@ tinytex::tlmgr_install("haranoaji")
 <td style="text-align: left;">0.8.11</td>
 </tr>
 <tr>
+<td style="text-align: left;">units</td>
+<td style="text-align: left;">0.8-7</td>
+</tr>
+<tr>
 <td style="text-align: left;">unix</td>
 <td style="text-align: left;">1.5.9</td>
 </tr>
@@ -3844,7 +3940,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">V8</td>
-<td style="text-align: left;">6.0.2</td>
+<td style="text-align: left;">6.0.3</td>
 </tr>
 <tr>
 <td style="text-align: left;">VCA</td>
@@ -3932,7 +4028,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">websocket</td>
-<td style="text-align: left;">1.4.2</td>
+<td style="text-align: left;">1.4.4</td>
 </tr>
 <tr>
 <td style="text-align: left;">WeightIt</td>
@@ -3972,7 +4068,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">writexl</td>
-<td style="text-align: left;">1.5.2</td>
+<td style="text-align: left;">1.5.3</td>
 </tr>
 <tr>
 <td style="text-align: left;">WRS2</td>
@@ -3988,7 +4084,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">xfun</td>
-<td style="text-align: left;">0.51</td>
+<td style="text-align: left;">0.52</td>
 </tr>
 <tr>
 <td style="text-align: left;">XML</td>
@@ -4005,6 +4101,10 @@ tinytex::tlmgr_install("haranoaji")
 <tr>
 <td style="text-align: left;">xopen</td>
 <td style="text-align: left;">1.0.1</td>
+</tr>
+<tr>
+<td style="text-align: left;">xslt</td>
+<td style="text-align: left;">1.5.1</td>
 </tr>
 <tr>
 <td style="text-align: left;">xtable</td>
@@ -4032,7 +4132,7 @@ tinytex::tlmgr_install("haranoaji")
 </tr>
 <tr>
 <td style="text-align: left;">zoo</td>
-<td style="text-align: left;">1.8-13</td>
+<td style="text-align: left;">1.8-14</td>
 </tr>
 </tbody>
 </table>
